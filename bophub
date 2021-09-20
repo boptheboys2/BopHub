@@ -1,0 +1,2996 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "Security 2.0"; -- the title (ofc)
+Text = "Hey, if the script dosen't work then take out stuff of auto exec"; -- what the text says (ofc) 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Security 2.0"; -- the title (ofc)
+Text = "This was made by p0p_bop#8649"; -- what the text says (ofc) 
+Duration = 10; -- how long the notification should in secounds
+})
+--BorkHUB Strucid
+--[[ Instances ]]--
+local BorkHub = Instance.new("ScreenGui")
+local BorkTopMain = Instance.new("Frame")
+local BorkFrame = Instance.new("Frame")
+local Enterbtn = Instance.new("TextButton")
+local Input = Instance.new("TextBox")
+local BorkUpdateLog = Instance.new("Frame")
+local ChangeLogTitle = Instance.new("TextLabel")
+local Underline = Instance.new("Frame")
+local Change1 = Instance.new("TextLabel")
+local Change2 = Instance.new("TextLabel")
+local Change3 = Instance.new("TextLabel")
+local Date2 = Instance.new("TextLabel")
+local Date1 = Instance.new("TextLabel")
+local Date3 = Instance.new("TextLabel")
+local TitleBorker = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Inject = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+--[[ Properties ]]--
+BorkHub.Name = "BorkHub"
+BorkHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BorkHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BorkHub.ResetOnSpawn = false
+
+BorkTopMain.Name = "BorkTopMain"
+BorkTopMain.Parent = BorkHub
+BorkTopMain.Active = true
+BorkTopMain.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+BorkTopMain.BorderSizePixel = 0
+BorkTopMain.Position = UDim2.new(0.37227723, 0, 0.299472302, 0)
+BorkTopMain.Size = UDim2.new(0, 257, 0, 26)
+
+BorkFrame.Name = "BorkFrame"
+BorkFrame.Parent = BorkTopMain
+BorkFrame.Active = true
+BorkFrame.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+BorkFrame.BorderSizePixel = 0
+BorkFrame.Position = UDim2.new(0, 0, 0.985780597, 0)
+BorkFrame.Size = UDim2.new(0.999999881, 0, 10.1133595, 0)
+
+Enterbtn.Name = "Enterbtn"
+Enterbtn.Parent = BorkFrame
+Enterbtn.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Enterbtn.BorderSizePixel = 0
+Enterbtn.Position = UDim2.new(0.700389206, 0, 0.866920114, 0)
+Enterbtn.Size = UDim2.new(0.272373527, 0, 0.0798479095, 0)
+Enterbtn.Font = Enum.Font.SourceSans
+Enterbtn.Text = "Enter"
+Enterbtn.TextColor3 = Color3.new(1, 1, 1)
+Enterbtn.TextSize = 14
+Enterbtn.MouseButton1Down:connect(function()
+wait(1.5)
+game.StarterGui:SetCore("SendNotification", {
+Title = "BorkHUB"; -- the title (ofc)
+Text = "Thanks for using BopHub share this with your friends have a nice day"; -- what the text says (ofc) 
+Duration = 25; -- how long the notification should in secounds
+})
+local players = game:GetService("Players")
+local player = players.LocalPlayer
+
+if game.PlaceId == not 2377868063 and game.PlaceId == not 3606833500 and game.PlaceId == not 2633045061 and game.PlaceId == not 2674164583 then
+    game.Players.LocalPlayer:Kick("This is not universal Please Enter STRUCID!!!")
+end
+
+local CoreGui = game:GetService("CoreGui")
+local f8df987syg8 = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local ScriptTitle = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local LoginPrompt = Instance.new("TextLabel")
+local Key = Instance.new("TextBox")
+local Login = Instance.new("TextButton")
+local MainUI = Instance.new("Frame")
+local HomeM = Instance.new("Frame")
+local Welcome = Instance.new("TextLabel")
+local W1 = Instance.new("TextLabel")
+local W2 = Instance.new("TextLabel")
+local W3 = Instance.new("TextLabel")
+local W4 = Instance.new("TextLabel")
+local TOS = Instance.new("TextLabel")
+local Copy = Instance.new("TextButton")
+local Help = Instance.new("TextButton")
+local Line1 = Instance.new("TextLabel")
+local Line2 = Instance.new("TextLabel")
+local Line3 = Instance.new("TextLabel")
+local Line4 = Instance.new("TextLabel")
+local HelpM = Instance.new("Frame")
+local HelpTitle = Instance.new("TextLabel")
+local KeybindTitle = Instance.new("TextLabel")
+local K1 = Instance.new("TextLabel")
+local K2 = Instance.new("TextLabel")
+local NewBindDisclaimer = Instance.new("TextLabel")
+local Line1_2 = Instance.new("TextLabel")
+local Navigationtitle = Instance.new("TextLabel")
+local Line2_2 = Instance.new("TextLabel")
+local N1 = Instance.new("TextLabel")
+local Line3_2 = Instance.new("TextLabel")
+local N2 = Instance.new("TextLabel")
+local Line4_2 = Instance.new("TextLabel")
+local N1_2 = Instance.new("TextLabel")
+local Line4_3 = Instance.new("TextLabel")
+local Line4_4 = Instance.new("TextLabel")
+local CombatM = Instance.new("Frame")
+local CombatT = Instance.new("TextLabel")
+local SilentAim = Instance.new("TextButton")
+local Help_2 = Instance.new("TextButton")
+local Line1_3 = Instance.new("TextLabel")
+local SilentT = Instance.new("TextLabel")
+local AimbotT = Instance.new("TextLabel")
+local Aimbot = Instance.new("TextButton")
+local HitboxesT = Instance.new("TextLabel")
+local Hitboxes = Instance.new("TextButton")
+local Line6 = Instance.new("TextLabel")
+local GunModsT = Instance.new("TextLabel")
+local Line3_3 = Instance.new("TextLabel")
+local Line2_3 = Instance.new("TextLabel")
+local RapidFireT = Instance.new("TextLabel")
+local RapidFire = Instance.new("TextButton")
+local Line4_5 = Instance.new("TextLabel")
+local AutoReloadT = Instance.new("TextLabel")
+local AutoReload = Instance.new("TextButton")
+local NoSpreadT = Instance.new("TextLabel")
+local NoSpread = Instance.new("TextButton")
+local Line5 = Instance.new("TextLabel")
+local RenderM = Instance.new("Frame")
+local RenderT = Instance.new("TextLabel")
+local BoxESP = Instance.new("TextButton")
+local Help_3 = Instance.new("TextButton")
+local BoxESPT = Instance.new("TextLabel")
+local ChamsT = Instance.new("TextLabel")
+local Chams = Instance.new("TextButton")
+local Tracers = Instance.new("TextButton")
+local Line3_4 = Instance.new("TextLabel")
+local TracersT = Instance.new("TextLabel")
+local Line2_4 = Instance.new("TextLabel")
+local Line1_4 = Instance.new("TextLabel")
+local CreditsM = Instance.new("Frame")
+local CreditsT = Instance.new("TextLabel")
+local oof4dayz = Instance.new("TextLabel")
+local SantaModz = Instance.new("TextLabel")
+local Line1_5 = Instance.new("TextLabel")
+local Line2_5 = Instance.new("TextLabel")
+local PlayBoosterCheats = Instance.new("TextLabel")
+local Line3_5 = Instance.new("TextLabel")
+local litideagiver = Instance.new("TextLabel")
+local AboutM = Instance.new("Frame")
+local CreditsT_2 = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local PatchFree = Instance.new("TextLabel")
+local Line1_6 = Instance.new("TextLabel")
+local Line2_6 = Instance.new("TextLabel")
+local UpdatedOn = Instance.new("TextLabel")
+local PlayBoosterCheats_2 = Instance.new("TextLabel")
+local Line3_6 = Instance.new("TextLabel")
+local SFLogo = Instance.new("ImageLabel")
+local MiscM = Instance.new("Frame")
+local MiscT = Instance.new("TextLabel")
+local Spinbot = Instance.new("TextButton")
+local Help_4 = Instance.new("TextButton")
+local SpinbotT = Instance.new("TextLabel")
+local InfJumpT = Instance.new("TextLabel")
+local InfJump = Instance.new("TextButton")
+local Line3_7 = Instance.new("TextLabel")
+local NoMapT = Instance.new("TextLabel")
+local Line1_7 = Instance.new("TextLabel")
+local Fly = Instance.new("TextButton")
+local Line2_7 = Instance.new("TextLabel")
+local NoMapT_2 = Instance.new("TextLabel")
+local NoMap = Instance.new("TextButton")
+local ScriptyGayM = Instance.new("Frame")
+local SG = Instance.new("TextLabel")
+local About = Instance.new("TextButton")
+local Combat = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local Home = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+local Render = Instance.new("TextButton")
+--Properties:
+f8df987syg8.Name = "f8df987syg8"
+f8df987syg8.Parent = CoreGui
+f8df987syg8.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = f8df987syg8
+LoginFrame.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+LoginFrame.BorderColor3 = Color3.new(1, 1, 1)
+LoginFrame.Position = UDim2.new(0.387814671, 0, 0.415783346, 0)
+LoginFrame.Size = UDim2.new(0, 200, 0, 182)
+LoginFrame.Active = true
+LoginFrame.Draggable = true
+
+ScriptTitle.Name = "ScriptTitle"
+ScriptTitle.Parent = LoginFrame
+ScriptTitle.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ScriptTitle.BorderSizePixel = 0
+ScriptTitle.Size = UDim2.new(0, 175, 0, 30)
+ScriptTitle.Font = Enum.Font.Gotham
+ScriptTitle.Text = "Bophub Login"
+ScriptTitle.TextColor3 = Color3.new(1, 1, 1)
+ScriptTitle.TextSize = 18
+
+Close.Name = "Close"
+Close.Parent = LoginFrame
+Close.BackgroundColor3 = Color3.new(0.670588, 0.0784314, 0.105882)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.875, 0, 0, 0)
+Close.Size = UDim2.new(0, 25, 0, 30)
+Close.Font = Enum.Font.Gotham
+Close.Text = "X"
+Close.TextColor3 = Color3.new(0, 0, 0)
+Close.TextSize = 14
+
+LoginPrompt.Name = "LoginPrompt"
+LoginPrompt.Parent = LoginFrame
+LoginPrompt.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+LoginPrompt.BorderSizePixel = 0
+LoginPrompt.Position = UDim2.new(0, 0, 0.330894411, 0)
+LoginPrompt.Size = UDim2.new(0, 200, 0, 30)
+LoginPrompt.Font = Enum.Font.Gotham
+LoginPrompt.Text = "Welcome To BopHub"
+LoginPrompt.TextColor3 = Color3.new(1, 1, 1)
+LoginPrompt.TextSize = 16
+
+Key.Name = "Key"
+Key.Parent = LoginFrame
+Key.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+Key.BorderSizePixel = 0
+Key.Position = UDim2.new(0, 0, 0.501172125, 0)
+Key.Size = UDim2.new(0, 200, 0, 30)
+Key.Font = Enum.Font.GothamSemibold
+Key.Text = "Whitelist key: PLEASE MOVE THIS UI HERE"
+Key.TextColor3 = Color3.new(1, 1, 1)
+Key.TextSize = 14
+
+MainUI.Name = "MainUI"
+MainUI.Parent = f8df987syg8
+MainUI.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+MainUI.BorderColor3 = Color3.new(1, 1, 1)
+MainUI.Position = UDim2.new(0.277577668, 0, 0.254543483, 0)
+MainUI.Size = UDim2.new(0, 400, 0, 300)
+MainUI.Visible = true
+MainUI.Active = true
+MainUI.Draggable = true
+
+HomeM.Name = "HomeM"
+HomeM.Parent = MainUI
+HomeM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+HomeM.BorderColor3 = Color3.new(1, 1, 1)
+HomeM.Position = UDim2.new(0.375, 0, 0, 0)
+HomeM.Size = UDim2.new(0, 250, 0, 300)
+
+Welcome.Name = "Welcome"
+Welcome.Parent = HomeM
+Welcome.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Welcome.BorderColor3 = Color3.new(1, 1, 1)
+Welcome.Size = UDim2.new(0, 250, 0, 30)
+Welcome.Font = Enum.Font.Gotham
+Welcome.Text = "Welcome to BopHub"
+Welcome.TextColor3 = Color3.new(1, 1, 1)
+Welcome.TextSize = 14
+
+W1.Name = "W1"
+W1.Parent = HomeM
+W1.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+W1.BorderColor3 = Color3.new(1, 1, 1)
+W1.BorderSizePixel = 0
+W1.Position = UDim2.new(0, 0, 0.100000024, 0)
+W1.Size = UDim2.new(0, 250, 0, 30)
+W1.Font = Enum.Font.Gotham
+W1.Text = "If you are a new buyer, we sincerely"
+W1.TextColor3 = Color3.new(1, 1, 1)
+W1.TextSize = 14
+
+W2.Name = "W2"
+W2.Parent = HomeM
+W2.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+W2.BorderSizePixel = 0
+W2.Position = UDim2.new(0, 0, 0.200000018, 0)
+W2.Size = UDim2.new(0, 250, 0, 30)
+W2.Font = Enum.Font.Gotham
+W2.Text = "thank you for choosing BopHub."
+W2.TextColor3 = Color3.new(1, 1, 1)
+W2.TextSize = 14
+
+W3.Name = "W3"
+W3.Parent = HomeM
+W3.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+W3.BorderSizePixel = 0
+W3.Position = UDim2.new(0, 0, 0.300000012, 0)
+W3.Size = UDim2.new(0, 250, 0, 30)
+W3.Font = Enum.Font.Gotham
+W3.Text = "We hope you enjoy our script."
+W3.TextColor3 = Color3.new(1, 1, 1)
+W3.TextSize = 14
+
+W4.Name = "W4"
+W4.Parent = HomeM
+W4.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+W4.BorderSizePixel = 0
+W4.Position = UDim2.new(0, 0, 0.400000006, 0)
+W4.Size = UDim2.new(0, 250, 0, 30)
+W4.Font = Enum.Font.Gotham
+W4.Text = "- BopHub Developers"
+W4.TextColor3 = Color3.new(1, 1, 1)
+W4.TextSize = 14
+
+TOS.Name = "TOS"
+TOS.Parent = HomeM
+TOS.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+TOS.BorderSizePixel = 0
+TOS.Position = UDim2.new(0, 0, 0.699999988, 0)
+TOS.Size = UDim2.new(0, 250, 0, 30)
+TOS.Font = Enum.Font.Gotham
+TOS.Text = "Please read the ToS on our Discord."
+TOS.TextColor3 = Color3.new(1, 1, 1)
+TOS.TextSize = 14
+
+Copy.Name = "Copy"
+Copy.Parent = HomeM
+Copy.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Copy.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Copy.BorderSizePixel = 0
+Copy.Position = UDim2.new(0, 0, 0.796666622, 0)
+Copy.Size = UDim2.new(0, 250, 0, 30)
+Copy.Font = Enum.Font.Gotham
+Copy.Text = "Copy Discord Invite"
+Copy.TextColor3 = Color3.new(0.203922, 0.988235, 1)
+Copy.TextSize = 20
+
+Help.Name = "Help"
+Help.Parent = HomeM
+Help.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Help.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Help.BorderSizePixel = 0
+Help.Position = UDim2.new(2.18860805e-08, 0, 0.896666646, 0)
+Help.Size = UDim2.new(0, 250, 0, 30)
+Help.Font = Enum.Font.Gotham
+Help.Text = "Need help? Click here."
+Help.TextColor3 = Color3.new(0.792157, 0.772549, 0.113725)
+Help.TextSize = 20
+
+Line1.Name = "Line1"
+Line1.Parent = HomeM
+Line1.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1.BorderColor3 = Color3.new(1, 1, 1)
+Line1.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1.Size = UDim2.new(0, 250, 0, 0)
+Line1.Font = Enum.Font.Gotham
+Line1.Text = ""
+Line1.TextColor3 = Color3.new(1, 1, 1)
+Line1.TextSize = 14
+
+Line2.Name = "Line2"
+Line2.Parent = HomeM
+Line2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2.BorderColor3 = Color3.new(1, 1, 1)
+Line2.Position = UDim2.new(-0.000999987125, 0, 0.5, 0)
+Line2.Size = UDim2.new(0, 250, 0, 0)
+Line2.Font = Enum.Font.Gotham
+Line2.Text = ""
+Line2.TextColor3 = Color3.new(1, 1, 1)
+Line2.TextSize = 14
+
+Line3.Name = "Line3"
+Line3.Parent = HomeM
+Line3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3.BorderColor3 = Color3.new(1, 1, 1)
+Line3.Position = UDim2.new(-0.000999987125, 0, 0.699999988, 0)
+Line3.Size = UDim2.new(0, 250, 0, 0)
+Line3.Font = Enum.Font.Gotham
+Line3.Text = ""
+Line3.TextColor3 = Color3.new(1, 1, 1)
+Line3.TextSize = 14
+
+Line4.Name = "Line4"
+Line4.Parent = HomeM
+Line4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line4.BorderColor3 = Color3.new(1, 1, 1)
+Line4.Position = UDim2.new(-0.000999987125, 0, 0.800000012, 0)
+Line4.Size = UDim2.new(0, 250, 0, 0)
+Line4.Font = Enum.Font.Gotham
+Line4.Text = ""
+Line4.TextColor3 = Color3.new(1, 1, 1)
+Line4.TextSize = 14
+
+HelpM.Name = "HelpM"
+HelpM.Parent = MainUI
+HelpM.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+HelpM.BorderColor3 = Color3.new(1, 1, 1)
+HelpM.Position = UDim2.new(0.375, 0, 0, 0)
+HelpM.Size = UDim2.new(0, 250, 0, 300)
+HelpM.Visible = false
+
+HelpTitle.Name = "HelpTitle"
+HelpTitle.Parent = HelpM
+HelpTitle.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+HelpTitle.BorderColor3 = Color3.new(1, 1, 1)
+HelpTitle.Size = UDim2.new(0, 250, 0, 30)
+HelpTitle.Font = Enum.Font.Gotham
+HelpTitle.Text = "Here is some info that can help you."
+HelpTitle.TextColor3 = Color3.new(1, 1, 1)
+HelpTitle.TextSize = 14
+
+KeybindTitle.Name = "KeybindTitle"
+KeybindTitle.Parent = HelpM
+KeybindTitle.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+KeybindTitle.BorderColor3 = Color3.new(1, 1, 1)
+KeybindTitle.Position = UDim2.new(0, 0, 0.100000001, 0)
+KeybindTitle.Size = UDim2.new(0, 250, 0, 30)
+KeybindTitle.Font = Enum.Font.Gotham
+KeybindTitle.Text = "GUI Keybinds:"
+KeybindTitle.TextColor3 = Color3.new(1, 1, 1)
+KeybindTitle.TextSize = 14
+
+K1.Name = "K1"
+K1.Parent = HelpM
+K1.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+K1.BorderColor3 = Color3.new(1, 1, 1)
+K1.BorderSizePixel = 0
+K1.Position = UDim2.new(0, 0, 0.200000003, 0)
+K1.Size = UDim2.new(0, 250, 0, 30)
+K1.Font = Enum.Font.Gotham
+K1.Text = "HOME - Hide/Show GUI"
+K1.TextColor3 = Color3.new(1, 1, 1)
+K1.TextSize = 14
+
+K2.Name = "K2"
+K2.Parent = HelpM
+K2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+K2.BorderColor3 = Color3.new(1, 1, 1)
+K2.BorderSizePixel = 0
+K2.Position = UDim2.new(0, 0, 0.300000012, 0)
+K2.Size = UDim2.new(0, 250, 0, 30)
+K2.Font = Enum.Font.Gotham
+K2.Text = "END - Destroy GUI/Self Destruct"
+K2.TextColor3 = Color3.new(1, 1, 1)
+K2.TextSize = 14
+
+NewBindDisclaimer.Name = "NewBindDisclaimer"
+NewBindDisclaimer.Parent = HelpM
+NewBindDisclaimer.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NewBindDisclaimer.BorderColor3 = Color3.new(1, 1, 1)
+NewBindDisclaimer.BorderSizePixel = 0
+NewBindDisclaimer.Position = UDim2.new(0, 0, 0.400000006, 0)
+NewBindDisclaimer.Size = UDim2.new(0, 250, 0, 30)
+NewBindDisclaimer.Font = Enum.Font.Gotham
+NewBindDisclaimer.Text = "All new binds we add will be here!"
+NewBindDisclaimer.TextColor3 = Color3.new(1, 1, 1)
+NewBindDisclaimer.TextSize = 14
+
+Line1_2.Name = "Line1"
+Line1_2.Parent = HelpM
+Line1_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_2.BorderColor3 = Color3.new(1, 1, 1)
+Line1_2.Position = UDim2.new(0, 0, 0.099999994, 0)
+Line1_2.Size = UDim2.new(0, 250, 0, 0)
+Line1_2.Font = Enum.Font.Gotham
+Line1_2.Text = ""
+Line1_2.TextColor3 = Color3.new(1, 1, 1)
+Line1_2.TextSize = 14
+
+Navigationtitle.Name = "Navigationtitle"
+Navigationtitle.Parent = HelpM
+Navigationtitle.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Navigationtitle.BorderColor3 = Color3.new(1, 1, 1)
+Navigationtitle.Position = UDim2.new(0, 0, 0.529999971, 0)
+Navigationtitle.Size = UDim2.new(0, 250, 0, 30)
+Navigationtitle.Font = Enum.Font.Gotham
+Navigationtitle.Text = "Navigation:"
+Navigationtitle.TextColor3 = Color3.new(1, 1, 1)
+Navigationtitle.TextSize = 14
+
+Line2_2.Name = "Line2"
+Line2_2.Parent = HelpM
+Line2_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_2.BorderColor3 = Color3.new(1, 1, 1)
+Line2_2.Position = UDim2.new(0, 0, 0.5, 0)
+Line2_2.Size = UDim2.new(0, 250, 0, 0)
+Line2_2.Font = Enum.Font.Gotham
+Line2_2.Text = ""
+Line2_2.TextColor3 = Color3.new(1, 1, 1)
+Line2_2.TextSize = 14
+
+N1.Name = "N1"
+N1.Parent = HelpM
+N1.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+N1.BorderColor3 = Color3.new(1, 1, 1)
+N1.BorderSizePixel = 0
+N1.Position = UDim2.new(0, 0, 0.629999995, 0)
+N1.Size = UDim2.new(0, 250, 0, 30)
+N1.Font = Enum.Font.Gotham
+N1.Text = "Click any button on the left side"
+N1.TextColor3 = Color3.new(1, 1, 1)
+N1.TextSize = 14
+
+Line3_2.Name = "Line3"
+Line3_2.Parent = HelpM
+Line3_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_2.BorderColor3 = Color3.new(1, 1, 1)
+Line3_2.Position = UDim2.new(0, 0, 0.529999971, 0)
+Line3_2.Size = UDim2.new(0, 250, 0, 0)
+Line3_2.Font = Enum.Font.Gotham
+Line3_2.Text = ""
+Line3_2.TextColor3 = Color3.new(1, 1, 1)
+Line3_2.TextSize = 14
+
+N2.Name = "N2"
+N2.Parent = HelpM
+N2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+N2.BorderColor3 = Color3.new(1, 1, 1)
+N2.BorderSizePixel = 0
+N2.Position = UDim2.new(0, 0, 0.730000019, 0)
+N2.Size = UDim2.new(0, 250, 0, 30)
+N2.Font = Enum.Font.Gotham
+N2.Text = "and this side's menu will change!"
+N2.TextColor3 = Color3.new(1, 1, 1)
+N2.TextSize = 14
+
+Line4_2.Name = "Line4"
+Line4_2.Parent = HelpM
+Line4_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line4_2.BorderColor3 = Color3.new(1, 1, 1)
+Line4_2.Position = UDim2.new(0, 0, 0.829999983, 0)
+Line4_2.Size = UDim2.new(0, 250, 0, 0)
+Line4_2.Font = Enum.Font.Gotham
+Line4_2.Text = ""
+Line4_2.TextColor3 = Color3.new(1, 1, 1)
+Line4_2.TextSize = 14
+
+N1_2.Name = "N1"
+N1_2.Parent = HelpM
+N1_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+N1_2.BorderColor3 = Color3.new(1, 1, 1)
+N1_2.BorderSizePixel = 0
+N1_2.Position = UDim2.new(0, 0, 0.866666675, 0)
+N1_2.Size = UDim2.new(0, 250, 0, 30)
+N1_2.Font = Enum.Font.Gotham
+N1_2.Text = "We are not responsible for any manual bans."
+N1_2.TextColor3 = Color3.new(1, 0.137255, 0.137255)
+N1_2.TextSize = 10
+
+Line4_3.Name = "Line4"
+Line4_3.Parent = HelpM
+Line4_3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line4_3.BorderColor3 = Color3.new(1, 1, 1)
+Line4_3.Position = UDim2.new(0, 0, 0.866666675, 0)
+Line4_3.Size = UDim2.new(0, 250, 0, 0)
+Line4_3.Font = Enum.Font.Gotham
+Line4_3.Text = ""
+Line4_3.TextColor3 = Color3.new(1, 1, 1)
+Line4_3.TextSize = 14
+
+Line4_4.Name = "Line4"
+Line4_4.Parent = HelpM
+Line4_4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line4_4.BorderColor3 = Color3.new(1, 1, 1)
+Line4_4.Position = UDim2.new(0, 0, 0.966666818, 0)
+Line4_4.Size = UDim2.new(0, 250, 0, 0)
+Line4_4.Font = Enum.Font.Gotham
+Line4_4.Text = ""
+Line4_4.TextColor3 = Color3.new(1, 1, 1)
+Line4_4.TextSize = 14
+
+CombatM.Name = "CombatM"
+CombatM.Parent = MainUI
+CombatM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+CombatM.BorderColor3 = Color3.new(1, 1, 1)
+CombatM.Position = UDim2.new(0.375, 0, 0, 0)
+CombatM.Size = UDim2.new(0, 250, 0, 300)
+CombatM.Visible = false
+
+CombatT.Name = "CombatT"
+CombatT.Parent = CombatM
+CombatT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+CombatT.BorderColor3 = Color3.new(1, 1, 1)
+CombatT.Size = UDim2.new(0, 250, 0, 30)
+CombatT.Font = Enum.Font.Gotham
+CombatT.Text = "Combat"
+CombatT.TextColor3 = Color3.new(1, 1, 1)
+CombatT.TextSize = 14
+
+SilentAim.Name = "SilentAim"
+SilentAim.Parent = CombatM
+SilentAim.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+SilentAim.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+SilentAim.BorderSizePixel = 0
+SilentAim.Position = UDim2.new(0.5, 0, 0.106666617, 0)
+SilentAim.Size = UDim2.new(0, 124, 0, 30)
+SilentAim.Font = Enum.Font.Gotham
+SilentAim.Text = "ACTIVATE"
+SilentAim.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+SilentAim.TextSize = 20
+SilentAim.MouseButton1Down:connect(function()
+local localPlayer = game:GetService("Players").LocalPlayer
+local currentCamera = game:GetService("Workspace").CurrentCamera
+local mouse = localPlayer:GetMouse()
+local teamCheck = true
+
+local function getClosestPlayerToCursor()
+    local closestPlayer = nil
+    local shortestDistance = math.huge
+    
+    for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+        if v.Name ~= localPlayer.Name then
+            if v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") and v.Character:FindFirstChild("Head") and teamCheck and v.Team ~= localPlayer.Team then
+                local pos = currentCamera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+                local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+
+                if magnitude < shortestDistance then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            elseif v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") and v.Character:FindFirstChild("Head") and not teamCheck then
+                local pos = currentCamera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+                local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+
+                if magnitude < shortestDistance then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            end
+        end
+    end
+    
+    return closestPlayer
+end
+
+game:GetService("UserInputService").InputBegan:Connect(function(input, onGui)
+    if not onGui and input.KeyCode == Enum.KeyCode.T then
+        teamCheck = not teamCheck
+    end
+end)
+
+local mt = getrawmetatable(game)
+local oldIndex = mt.__index
+local oldNamecall = mt.__namecall
+if setreadonly then setreadonly(mt, false) else make_writeable(mt, true) end
+local nameCallMethod = getnamecallmethod or get_namecall_method
+local newClose = newcclosure or function(f) return f end
+
+mt.__index = newClose(function(t, k)
+    if t == mouse and tostring(k) == "Hit" and getClosestPlayerToCursor() and getClosestPlayerToCursor().Character:FindFirstChild("Head") then
+        return getClosestPlayerToCursor().Character.Head.CFrame
+    end
+
+    return oldIndex(t, k)
+end)
+
+mt.__namecall = newClose(function(...)
+    local method = nameCallMethod()
+    local args = {...}
+
+    if tostring(method) == "FindPartOnRayWithIgnoreList" and getClosestPlayerToCursor() and getClosestPlayerToCursor().Character then
+        return oldNamecall(args[1], args[2], {game:GetService("Workspace").IgnoreThese, game:GetService("Players").LocalPlayer.Character, game:GetService("Workspace").BuildStuff, game:GetService("Workspace").Map})
+    end
+
+    return oldNamecall(...)
+end)
+
+if setreadonly then setreadonly(mt, true) else make_writeable(mt, false) end
+
+local oldFunc
+
+oldFunc = hookfunction(workspace.FindPartOnRayWithIgnoreList, function(...)
+	local args = {...}
+
+	args[3] = {game:GetService("Workspace").IgnoreThese, game:GetService("Players").LocalPlayer.Character, game:GetService("Workspace").BuildStuff, game:GetService("Workspace").Map}
+
+	return oldFunc(unpack(args))
+end)
+end)
+
+Help_2.Name = "Help"
+Help_2.Parent = CombatM
+Help_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Help_2.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Help_2.BorderSizePixel = 0
+Help_2.Position = UDim2.new(0, 0, 0.899999976, 0)
+Help_2.Size = UDim2.new(0, 250, 0, 30)
+Help_2.Font = Enum.Font.Gotham
+Help_2.Text = "Need help? Click here."
+Help_2.TextColor3 = Color3.new(0.792157, 0.772549, 0.113725)
+Help_2.TextSize = 20
+
+Line1_3.Name = "Line1"
+Line1_3.Parent = CombatM
+Line1_3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_3.BorderColor3 = Color3.new(1, 1, 1)
+Line1_3.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1_3.Size = UDim2.new(0, 250, 0, 0)
+Line1_3.Font = Enum.Font.Gotham
+Line1_3.Text = ""
+Line1_3.TextColor3 = Color3.new(1, 1, 1)
+Line1_3.TextSize = 14
+
+SilentT.Name = "SilentT"
+SilentT.Parent = CombatM
+SilentT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+SilentT.BorderColor3 = Color3.new(1, 1, 1)
+SilentT.BorderSizePixel = 0
+SilentT.Position = UDim2.new(0.00800000038, 0, 0.103333339, 0)
+SilentT.Size = UDim2.new(0, 124, 0, 30)
+SilentT.Font = Enum.Font.Gotham
+SilentT.Text = "Silent Aim/pSilent"
+SilentT.TextColor3 = Color3.new(1, 1, 1)
+SilentT.TextSize = 14
+
+AimbotT.Name = "AimbotT"
+AimbotT.Parent = CombatM
+AimbotT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AimbotT.BorderColor3 = Color3.new(1, 1, 1)
+AimbotT.BorderSizePixel = 0
+AimbotT.Position = UDim2.new(0.00800000038, 0, 0.203333333, 0)
+AimbotT.Size = UDim2.new(0, 124, 0, 30)
+AimbotT.Font = Enum.Font.Gotham
+AimbotT.Text = "Aimbot (BETA)"
+AimbotT.TextColor3 = Color3.new(1, 1, 1)
+AimbotT.TextSize = 14
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = CombatM
+Aimbot.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Aimbot.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.5, 0, 0.206666559, 0)
+Aimbot.Size = UDim2.new(0, 124, 0, 30)
+Aimbot.Font = Enum.Font.Gotham
+Aimbot.Text = "ACTIVATE"
+Aimbot.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+Aimbot.TextSize = 20
+
+HitboxesT.Name = "HitboxesT"
+HitboxesT.Parent = CombatM
+HitboxesT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+HitboxesT.BorderColor3 = Color3.new(1, 1, 1)
+HitboxesT.BorderSizePixel = 0
+HitboxesT.Position = UDim2.new(0.00800000038, 0, 0.303333342, 0)
+HitboxesT.Size = UDim2.new(0, 124, 0, 30)
+HitboxesT.Font = Enum.Font.Gotham
+HitboxesT.Text = "Hitboxes v1.4"
+HitboxesT.TextColor3 = Color3.new(1, 1, 1)
+HitboxesT.TextSize = 14
+
+Hitboxes.Name = "Hitboxes"
+Hitboxes.Parent = CombatM
+Hitboxes.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Hitboxes.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Hitboxes.BorderSizePixel = 0
+Hitboxes.Position = UDim2.new(0.5, 0, 0.306666553, 0)
+Hitboxes.Size = UDim2.new(0, 124, 0, 30)
+Hitboxes.Font = Enum.Font.Gotham
+Hitboxes.Text = "ACTIVATE"
+Hitboxes.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+Hitboxes.TextSize = 20
+
+Line6.Name = "Line6"
+Line6.Parent = CombatM
+Line6.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line6.BorderColor3 = Color3.new(1, 1, 1)
+Line6.Position = UDim2.new(-0.00100000005, 0, 0.899999976, 0)
+Line6.Size = UDim2.new(0, 250, 0, 0)
+Line6.Font = Enum.Font.Gotham
+Line6.Text = ""
+Line6.TextColor3 = Color3.new(1, 1, 1)
+Line6.TextSize = 14
+
+GunModsT.Name = "GunModsT"
+GunModsT.Parent = CombatM
+GunModsT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+GunModsT.BorderColor3 = Color3.new(1, 1, 1)
+GunModsT.Position = UDim2.new(0, 0, 0.430000007, 0)
+GunModsT.Size = UDim2.new(0, 250, 0, 30)
+GunModsT.Font = Enum.Font.Gotham
+GunModsT.Text = "Gun Mods"
+GunModsT.TextColor3 = Color3.new(1, 1, 1)
+GunModsT.TextSize = 14
+
+Line3_3.Name = "Line3"
+Line3_3.Parent = CombatM
+Line3_3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_3.BorderColor3 = Color3.new(1, 1, 1)
+Line3_3.Position = UDim2.new(-0.00100000005, 0, 0.430000007, 0)
+Line3_3.Size = UDim2.new(0, 250, 0, 0)
+Line3_3.Font = Enum.Font.Gotham
+Line3_3.Text = ""
+Line3_3.TextColor3 = Color3.new(1, 1, 1)
+Line3_3.TextSize = 14
+
+Line2_3.Name = "Line2"
+Line2_3.Parent = CombatM
+Line2_3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_3.BorderColor3 = Color3.new(1, 1, 1)
+Line2_3.Position = UDim2.new(-0.00100000005, 0, 0.403333336, 0)
+Line2_3.Size = UDim2.new(0, 250, 0, 0)
+Line2_3.Font = Enum.Font.Gotham
+Line2_3.Text = ""
+Line2_3.TextColor3 = Color3.new(1, 1, 1)
+Line2_3.TextSize = 14
+
+RapidFireT.Name = "RapidFireT"
+RapidFireT.Parent = CombatM
+RapidFireT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+RapidFireT.BorderColor3 = Color3.new(1, 1, 1)
+RapidFireT.BorderSizePixel = 0
+RapidFireT.Position = UDim2.new(0, 0, 0.530000031, 0)
+RapidFireT.Size = UDim2.new(0, 124, 0, 30)
+RapidFireT.Font = Enum.Font.Gotham
+RapidFireT.Text = "RapidFire"
+RapidFireT.TextColor3 = Color3.new(1, 1, 1)
+RapidFireT.TextSize = 14
+
+RapidFire.Name = "RapidFire"
+RapidFire.Parent = CombatM
+RapidFire.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+RapidFire.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+RapidFire.BorderSizePixel = 0
+RapidFire.Position = UDim2.new(0.496000022, 0, 0.529999912, 0)
+RapidFire.Size = UDim2.new(0, 124, 0, 30)
+RapidFire.Font = Enum.Font.Gotham
+RapidFire.Text = "ACTIVATE"
+RapidFire.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+RapidFire.TextSize = 20
+
+Line4_5.Name = "Line4"
+Line4_5.Parent = CombatM
+Line4_5.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line4_5.BorderColor3 = Color3.new(1, 1, 1)
+Line4_5.Position = UDim2.new(-0.00100000005, 0, 0.529999971, 0)
+Line4_5.Size = UDim2.new(0, 250, 0, 0)
+Line4_5.Font = Enum.Font.Gotham
+Line4_5.Text = ""
+Line4_5.TextColor3 = Color3.new(1, 1, 1)
+Line4_5.TextSize = 14
+
+AutoReloadT.Name = "AutoReloadT"
+AutoReloadT.Parent = CombatM
+AutoReloadT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AutoReloadT.BorderColor3 = Color3.new(1, 1, 1)
+AutoReloadT.BorderSizePixel = 0
+AutoReloadT.Position = UDim2.new(0.00399999972, 0, 0.630000055, 0)
+AutoReloadT.Size = UDim2.new(0, 124, 0, 30)
+AutoReloadT.Font = Enum.Font.Gotham
+AutoReloadT.Text = "AutoReload"
+AutoReloadT.TextColor3 = Color3.new(1, 1, 1)
+AutoReloadT.TextSize = 14
+
+AutoReload.Name = "AutoReload"
+AutoReload.Parent = CombatM
+AutoReload.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+AutoReload.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+AutoReload.BorderSizePixel = 0
+AutoReload.Position = UDim2.new(0.495999992, 0, 0.629999995, 0)
+AutoReload.Size = UDim2.new(0, 124, 0, 30)
+AutoReload.Font = Enum.Font.Gotham
+AutoReload.Text = "X"
+AutoReload.TextColor3 = Color3.new(0.760784, 0.141176, 0.141176)
+AutoReload.TextSize = 20
+
+NoSpreadT.Name = "NoSpreadT"
+NoSpreadT.Parent = CombatM
+NoSpreadT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoSpreadT.BorderColor3 = Color3.new(1, 1, 1)
+NoSpreadT.BorderSizePixel = 0
+NoSpreadT.Position = UDim2.new(0.00399999972, 0, 0.730000079, 0)
+NoSpreadT.Size = UDim2.new(0, 124, 0, 30)
+NoSpreadT.Font = Enum.Font.Gotham
+NoSpreadT.Text = "NoSpread"
+NoSpreadT.TextColor3 = Color3.new(1, 1, 1)
+NoSpreadT.TextSize = 14
+
+NoSpread.Name = "NoSpread/Wallbang"
+NoSpread.Parent = CombatM
+NoSpread.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoSpread.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+NoSpread.BorderSizePixel = 0
+NoSpread.Position = UDim2.new(0.495999992, 0, 0.730000019, 0)
+NoSpread.Size = UDim2.new(0, 124, 0, 30)
+NoSpread.Font = Enum.Font.Gotham
+NoSpread.Text = "ACTIVATE"
+NoSpread.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+NoSpread.TextSize = 20
+NoSpread.MouseButton1Down:connect(function()
+local ModTac = require(game.ReplicatedStorage.Weapons.Modules["Tac Shotgun"]);
+local ModSupAR = require(game.ReplicatedStorage.Weapons.Modules["Suppressed AR"]);
+local ModPistol = require(game.ReplicatedStorage.Weapons.Modules["Machine Pistol"]);
+local ModRPG = require(game.ReplicatedStorage.Weapons.Modules["RPG"]);
+local ModPick = require(game.ReplicatedStorage.Weapons.Modules["Pickaxe"]);
+local ModAR = require(game.ReplicatedStorage.Weapons.Modules["AR"]);
+local ModDrum = require(game.ReplicatedStorage.Weapons.Modules["Drum Gun"]);
+local ModSMG = require(game.ReplicatedStorage.Weapons.Modules["SMG 101"]);
+local ModHawk = require(game.ReplicatedStorage.Weapons.Modules["Desert Hawk"]);
+
+   ModTac["Innaccuracy"] = 0.209786354
+   ModHawk["Innaccuracy"] = 0.209786354
+   ModSMG["Innaccuracy"] = 0.209786354
+   ModSniper["Innaccuracy"] = 0.209786354
+   ModAR["Innaccuracy"] = 0.209786354
+   ModSupAR["Innaccuracy"] = 0.209786354
+   ModPistol["Innaccuracy"] = 0.209786354
+   ModDrum["Innaccuracy"] = 0.209786354
+   ModRPG["Innaccuracy"] = 0.209786354
+end)
+
+Line5.Name = "Line5"
+Line5.Parent = CombatM
+Line5.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line5.BorderColor3 = Color3.new(1, 1, 1)
+Line5.Position = UDim2.new(-0.00100000005, 0, 0.829999983, 0)
+Line5.Size = UDim2.new(0, 250, 0, 0)
+Line5.Font = Enum.Font.Gotham
+Line5.Text = ""
+Line5.TextColor3 = Color3.new(1, 1, 1)
+Line5.TextSize = 14
+
+RenderM.Name = "RenderM"
+RenderM.Parent = MainUI
+RenderM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+RenderM.BorderColor3 = Color3.new(1, 1, 1)
+RenderM.Position = UDim2.new(0.375, 0, 0, 0)
+RenderM.Size = UDim2.new(0, 250, 0, 300)
+RenderM.Visible = false
+
+RenderT.Name = "RenderT"
+RenderT.Parent = RenderM
+RenderT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+RenderT.BorderColor3 = Color3.new(1, 1, 1)
+RenderT.Size = UDim2.new(0, 250, 0, 30)
+RenderT.Font = Enum.Font.Gotham
+RenderT.Text = "Render"
+RenderT.TextColor3 = Color3.new(1, 1, 1)
+RenderT.TextSize = 14
+
+BoxESP.Name = "BoxESP"
+BoxESP.Parent = RenderM
+BoxESP.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+BoxESP.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+BoxESP.BorderSizePixel = 0
+BoxESP.Position = UDim2.new(0.5, 0, 0.106666617, 0)
+BoxESP.Size = UDim2.new(0, 124, 0, 30)
+BoxESP.Font = Enum.Font.Gotham
+BoxESP.Text = "ACTIVATE"
+BoxESP.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+BoxESP.TextSize = 20
+
+Help_3.Name = "Help"
+Help_3.Parent = RenderM
+Help_3.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Help_3.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Help_3.BorderSizePixel = 0
+Help_3.Position = UDim2.new(0, 0, 0.899999976, 0)
+Help_3.Size = UDim2.new(0, 250, 0, 30)
+Help_3.Font = Enum.Font.Gotham
+Help_3.Text = "Need help? Click here."
+Help_3.TextColor3 = Color3.new(0.792157, 0.772549, 0.113725)
+Help_3.TextSize = 20
+
+BoxESPT.Name = "BoxESPT"
+BoxESPT.Parent = RenderM
+BoxESPT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+BoxESPT.BorderColor3 = Color3.new(1, 1, 1)
+BoxESPT.BorderSizePixel = 0
+BoxESPT.Position = UDim2.new(0.00800000038, 0, 0.103333339, 0)
+BoxESPT.Size = UDim2.new(0, 124, 0, 30)
+BoxESPT.Font = Enum.Font.Gotham
+BoxESPT.Text = "BoxESP"
+BoxESPT.TextColor3 = Color3.new(1, 1, 1)
+BoxESPT.TextSize = 14
+
+ChamsT.Name = "ChamsT"
+ChamsT.Parent = RenderM
+ChamsT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+ChamsT.BorderColor3 = Color3.new(1, 1, 1)
+ChamsT.BorderSizePixel = 0
+ChamsT.Position = UDim2.new(0.00800000038, 0, 0.203333333, 0)
+ChamsT.Size = UDim2.new(0, 124, 0, 30)
+ChamsT.Font = Enum.Font.Gotham
+ChamsT.Text = "Chams"
+ChamsT.TextColor3 = Color3.new(1, 1, 1)
+ChamsT.TextSize = 14
+
+Chams.Name = "Chams"
+Chams.Parent = RenderM
+Chams.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Chams.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Chams.BorderSizePixel = 0
+Chams.Position = UDim2.new(0.5, 0, 0.206666559, 0)
+Chams.Size = UDim2.new(0, 124, 0, 30)
+Chams.Font = Enum.Font.Gotham
+Chams.Text = "ACTIVATE"
+Chams.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+Chams.TextSize = 20
+
+Tracers.Name = "Tracers"
+Tracers.Parent = RenderM
+Tracers.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Tracers.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Tracers.BorderSizePixel = 0
+Tracers.Position = UDim2.new(0.5, 0, 0.306666553, 0)
+Tracers.Size = UDim2.new(0, 124, 0, 30)
+Tracers.Font = Enum.Font.Gotham
+Tracers.Text = "X"
+Tracers.TextColor3 = Color3.new(0.760784, 0.141176, 0.141176)
+Tracers.TextSize = 20
+
+Line3_4.Name = "Line3"
+Line3_4.Parent = RenderM
+Line3_4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_4.BorderColor3 = Color3.new(1, 1, 1)
+Line3_4.Position = UDim2.new(-0.00100000005, 0, 0.899999976, 0)
+Line3_4.Size = UDim2.new(0, 250, 0, 0)
+Line3_4.Font = Enum.Font.Gotham
+Line3_4.Text = ""
+Line3_4.TextColor3 = Color3.new(1, 1, 1)
+Line3_4.TextSize = 14
+
+TracersT.Name = "TracersT"
+TracersT.Parent = RenderM
+TracersT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+TracersT.BorderColor3 = Color3.new(1, 1, 1)
+TracersT.BorderSizePixel = 0
+TracersT.Position = UDim2.new(0.00800000038, 0, 0.303333342, 0)
+TracersT.Size = UDim2.new(0, 124, 0, 30)
+TracersT.Font = Enum.Font.Gotham
+TracersT.Text = "Tracers"
+TracersT.TextColor3 = Color3.new(1, 1, 1)
+TracersT.TextSize = 14
+
+Line2_4.Name = "Line2"
+Line2_4.Parent = RenderM
+Line2_4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_4.BorderColor3 = Color3.new(1, 1, 1)
+Line2_4.Position = UDim2.new(-0.000999999698, 0, 0.416666687, 0)
+Line2_4.Size = UDim2.new(0, 250, 0, 0)
+Line2_4.Font = Enum.Font.Gotham
+Line2_4.Text = ""
+Line2_4.TextColor3 = Color3.new(1, 1, 1)
+Line2_4.TextSize = 14
+
+Line1_4.Name = "Line1"
+Line1_4.Parent = RenderM
+Line1_4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_4.BorderColor3 = Color3.new(1, 1, 1)
+Line1_4.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1_4.Size = UDim2.new(0, 250, 0, 0)
+Line1_4.Font = Enum.Font.Gotham
+Line1_4.Text = ""
+Line1_4.TextColor3 = Color3.new(1, 1, 1)
+Line1_4.TextSize = 14
+
+CreditsM.Name = "CreditsM"
+CreditsM.Parent = MainUI
+CreditsM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+CreditsM.BorderColor3 = Color3.new(1, 1, 1)
+CreditsM.Position = UDim2.new(0.375, 0, 0, 0)
+CreditsM.Size = UDim2.new(0, 250, 0, 300)
+CreditsM.Visible = false
+
+CreditsT.Name = "CreditsT"
+CreditsT.Parent = CreditsM
+CreditsT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+CreditsT.BorderColor3 = Color3.new(1, 1, 1)
+CreditsT.Size = UDim2.new(0, 250, 0, 30)
+CreditsT.Font = Enum.Font.Gotham
+CreditsT.Text = "BopHub Credits"
+CreditsT.TextColor3 = Color3.new(1, 1, 1)
+CreditsT.TextSize = 14
+
+oof4dayz.Name = "YoungStar"
+oof4dayz.Parent = CreditsM
+oof4dayz.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+oof4dayz.BorderColor3 = Color3.new(1, 1, 1)
+oof4dayz.BorderSizePixel = 0
+oof4dayz.Position = UDim2.new(0, 0, 0.100000024, 0)
+oof4dayz.Size = UDim2.new(0, 250, 0, 30)
+oof4dayz.Font = Enum.Font.Gotham
+oof4dayz.Text = "Owner of BopHub - p0p_bop#8649"
+oof4dayz.TextColor3 = Color3.new(1, 1, 1)
+oof4dayz.TextSize = 14
+
+SantaModz.Name = "BORK"
+SantaModz.Parent = CreditsM
+SantaModz.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+SantaModz.BorderSizePixel = 0
+SantaModz.Position = UDim2.new(0, 0, 0.200000018, 0)
+SantaModz.Size = UDim2.new(0, 250, 0, 30)
+SantaModz.Font = Enum.Font.Gotham
+SantaModz.Text = "Dev - p0p_bop#8649"
+SantaModz.TextColor3 = Color3.new(1, 1, 1)
+SantaModz.TextSize = 14
+
+Line1_5.Name = "Line1"
+Line1_5.Parent = CreditsM
+Line1_5.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_5.BorderColor3 = Color3.new(1, 1, 1)
+Line1_5.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1_5.Size = UDim2.new(0, 250, 0, 0)
+Line1_5.Font = Enum.Font.Gotham
+Line1_5.Text = ""
+Line1_5.TextColor3 = Color3.new(1, 1, 1)
+Line1_5.TextSize = 14
+
+Line2_5.Name = "Line2"
+Line2_5.Parent = CreditsM
+Line2_5.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_5.BorderColor3 = Color3.new(1, 1, 1)
+Line2_5.Position = UDim2.new(-0.00100000005, 0, 0.409999996, 0)
+Line2_5.Size = UDim2.new(0, 250, 0, 0)
+Line2_5.Font = Enum.Font.Gotham
+Line2_5.Text = ""
+Line2_5.TextColor3 = Color3.new(1, 1, 1)
+Line2_5.TextSize = 14
+
+PlayBoosterCheats.Name = "THE SKIDDERS"
+PlayBoosterCheats.Parent = CreditsM
+PlayBoosterCheats.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+PlayBoosterCheats.BorderSizePixel = 0
+PlayBoosterCheats.Position = UDim2.new(0, 0, 0.900000036, 0)
+PlayBoosterCheats.Size = UDim2.new(0, 250, 0, 30)
+PlayBoosterCheats.Font = Enum.Font.Gotham
+PlayBoosterCheats.Text = "Made by p0p_bop#8649"
+PlayBoosterCheats.TextColor3 = Color3.new(1, 1, 1)
+PlayBoosterCheats.TextSize = 14
+
+Line3_5.Name = "Line3"
+Line3_5.Parent = CreditsM
+Line3_5.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_5.BorderColor3 = Color3.new(1, 1, 1)
+Line3_5.Position = UDim2.new(0, 0, 0.899999976, 0)
+Line3_5.Size = UDim2.new(0, 250, 0, 0)
+Line3_5.Font = Enum.Font.Gotham
+Line3_5.Text = ""
+Line3_5.TextColor3 = Color3.new(1, 1, 1)
+Line3_5.TextSize = 14
+
+litideagiver.Name = "lit idea giver"
+litideagiver.Parent = CreditsM
+litideagiver.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+litideagiver.BorderSizePixel = 0
+litideagiver.Position = UDim2.new(0, 0, 0.300000012, 0)
+litideagiver.Size = UDim2.new(0, 250, 0, 30)
+litideagiver.Font = Enum.Font.Gotham
+litideagiver.Text = "Head Dev - also p0p_bop#8649"
+litideagiver.TextColor3 = Color3.new(1, 1, 1)
+litideagiver.TextSize = 14
+
+AboutM.Name = "AboutM"
+AboutM.Parent = MainUI
+AboutM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+AboutM.BorderColor3 = Color3.new(1, 1, 1)
+AboutM.Position = UDim2.new(0.375, 0, 0, 0)
+AboutM.Size = UDim2.new(0, 250, 0, 300)
+AboutM.Visible = false
+
+CreditsT_2.Name = "CreditsT"
+CreditsT_2.Parent = AboutM
+CreditsT_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+CreditsT_2.BorderColor3 = Color3.new(1, 1, 1)
+CreditsT_2.Size = UDim2.new(0, 250, 0, 30)
+CreditsT_2.Font = Enum.Font.Gotham
+CreditsT_2.Text = "About BopHub"
+CreditsT_2.TextColor3 = Color3.new(1, 1, 1)
+CreditsT_2.TextSize = 14
+
+Version.Name = "Version"
+Version.Parent = AboutM
+Version.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Version.BorderColor3 = Color3.new(1, 1, 1)
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0, 0, 0.100000024, 0)
+Version.Size = UDim2.new(0, 250, 0, 30)
+Version.Font = Enum.Font.Gotham
+Version.Text = "Script Version: v1.0 BETA"
+Version.TextColor3 = Color3.new(1, 1, 1)
+Version.TextSize = 14
+
+PatchFree.Name = "PatchFree"
+PatchFree.Parent = AboutM
+PatchFree.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+PatchFree.BorderSizePixel = 0
+PatchFree.Position = UDim2.new(0, 0, 0.300000042, 0)
+PatchFree.Size = UDim2.new(0, 250, 0, 30)
+PatchFree.Font = Enum.Font.Gotham
+PatchFree.Text = "Patch-free since: 10/06/19"
+PatchFree.TextColor3 = Color3.new(1, 1, 1)
+PatchFree.TextSize = 14
+
+Line1_6.Name = "Line1"
+Line1_6.Parent = AboutM
+Line1_6.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_6.BorderColor3 = Color3.new(1, 1, 1)
+Line1_6.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1_6.Size = UDim2.new(0, 250, 0, 0)
+Line1_6.Font = Enum.Font.Gotham
+Line1_6.Text = ""
+Line1_6.TextColor3 = Color3.new(1, 1, 1)
+Line1_6.TextSize = 14
+
+Line2_6.Name = "Line2"
+Line2_6.Parent = AboutM
+Line2_6.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_6.BorderColor3 = Color3.new(1, 1, 1)
+Line2_6.Position = UDim2.new(-0.000999987125, 0, 0.400000006, 0)
+Line2_6.Size = UDim2.new(0, 250, 0, 0)
+Line2_6.Font = Enum.Font.Gotham
+Line2_6.Text = ""
+Line2_6.TextColor3 = Color3.new(1, 1, 1)
+Line2_6.TextSize = 14
+
+UpdatedOn.Name = "UpdatedOn"
+UpdatedOn.Parent = AboutM
+UpdatedOn.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+UpdatedOn.BorderSizePixel = 0
+UpdatedOn.Position = UDim2.new(0, 0, 0.200000018, 0)
+UpdatedOn.Size = UDim2.new(0, 250, 0, 30)
+UpdatedOn.Font = Enum.Font.Gotham
+UpdatedOn.Text = "Updated on: 10/06/2019"
+UpdatedOn.TextColor3 = Color3.new(1, 1, 1)
+UpdatedOn.TextSize = 14
+
+PlayBoosterCheats_2.Name = "THE SKIDDERS"
+PlayBoosterCheats_2.Parent = AboutM
+PlayBoosterCheats_2.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+PlayBoosterCheats_2.BorderSizePixel = 0
+PlayBoosterCheats_2.Position = UDim2.new(0, 0, 0.900000036, 0)
+PlayBoosterCheats_2.Size = UDim2.new(0, 250, 0, 30)
+PlayBoosterCheats_2.Font = Enum.Font.Gotham
+PlayBoosterCheats_2.Text = "Made by p0p_bop#8649"
+PlayBoosterCheats_2.TextColor3 = Color3.new(1, 1, 1)
+PlayBoosterCheats_2.TextSize = 14
+
+Line3_6.Name = "Line3"
+Line3_6.Parent = AboutM
+Line3_6.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_6.BorderColor3 = Color3.new(1, 1, 1)
+Line3_6.Position = UDim2.new(0, 0, 0.899999976, 0)
+Line3_6.Size = UDim2.new(0, 250, 0, 0)
+Line3_6.Font = Enum.Font.Gotham
+Line3_6.Text = ""
+Line3_6.TextColor3 = Color3.new(1, 1, 1)
+Line3_6.TextSize = 14
+
+SFLogo.Name = "SFLogo"
+SFLogo.Parent = AboutM
+SFLogo.BackgroundColor3 = Color3.new(1, 1, 1)
+SFLogo.BorderColor3 = Color3.new(1, 1, 1)
+SFLogo.Position = UDim2.new(0.13301146, 0, 0.430000007, 0)
+SFLogo.Size = UDim2.new(0, 183, 0, 130)
+SFLogo.Image = "http://www.roblox.com/asset/?id=966751823"
+
+MiscM.Name = "MiscM"
+MiscM.Parent = MainUI
+MiscM.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+MiscM.BorderColor3 = Color3.new(1, 1, 1)
+MiscM.Position = UDim2.new(0.375, 0, 0, 0)
+MiscM.Size = UDim2.new(0, 250, 0, 300)
+MiscM.Visible = false
+
+MiscT.Name = "MiscT"
+MiscT.Parent = MiscM
+MiscT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+MiscT.BorderColor3 = Color3.new(1, 1, 1)
+MiscT.Size = UDim2.new(0, 250, 0, 30)
+MiscT.Font = Enum.Font.Gotham
+MiscT.Text = "Misc"
+MiscT.TextColor3 = Color3.new(1, 1, 1)
+MiscT.TextSize = 14
+
+Spinbot.Name = "Spinbot"
+Spinbot.Parent = MiscM
+Spinbot.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Spinbot.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Spinbot.BorderSizePixel = 0
+Spinbot.Position = UDim2.new(0.5, 0, 0.106666617, 0)
+Spinbot.Size = UDim2.new(0, 124, 0, 30)
+Spinbot.Font = Enum.Font.Gotham
+Spinbot.Text = "ACTIVATE"
+Spinbot.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+Spinbot.TextSize = 20
+
+Help_4.Name = "Help"
+Help_4.Parent = MiscM
+Help_4.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Help_4.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Help_4.BorderSizePixel = 0
+Help_4.Position = UDim2.new(0, 0, 0.899999976, 0)
+Help_4.Size = UDim2.new(0, 250, 0, 30)
+Help_4.Font = Enum.Font.Gotham
+Help_4.Text = "Need help? Click here."
+Help_4.TextColor3 = Color3.new(0.792157, 0.772549, 0.113725)
+Help_4.TextSize = 20
+
+SpinbotT.Name = "SpinbotT"
+SpinbotT.Parent = MiscM
+SpinbotT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+SpinbotT.BorderColor3 = Color3.new(1, 1, 1)
+SpinbotT.BorderSizePixel = 0
+SpinbotT.Position = UDim2.new(0.00800000038, 0, 0.103333339, 0)
+SpinbotT.Size = UDim2.new(0, 124, 0, 30)
+SpinbotT.Font = Enum.Font.Gotham
+SpinbotT.Text = "Spinbot"
+SpinbotT.TextColor3 = Color3.new(1, 1, 1)
+SpinbotT.TextSize = 14
+
+InfJumpT.Name = "InfJumpT"
+InfJumpT.Parent = MiscM
+InfJumpT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+InfJumpT.BorderColor3 = Color3.new(1, 1, 1)
+InfJumpT.BorderSizePixel = 0
+InfJumpT.Position = UDim2.new(0.00800000038, 0, 0.203333333, 0)
+InfJumpT.Size = UDim2.new(0, 124, 0, 30)
+InfJumpT.Font = Enum.Font.Gotham
+InfJumpT.Text = "Infinite Jump"
+InfJumpT.TextColor3 = Color3.new(1, 1, 1)
+InfJumpT.TextSize = 14
+
+InfJump.Name = "InfJump"
+InfJump.Parent = MiscM
+InfJump.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+InfJump.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.5, 0, 0.206666559, 0)
+InfJump.Size = UDim2.new(0, 124, 0, 30)
+InfJump.Font = Enum.Font.Gotham
+InfJump.Text = "ACTIVATE"
+InfJump.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+InfJump.TextSize = 20
+
+Line3_7.Name = "Line3"
+Line3_7.Parent = MiscM
+Line3_7.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line3_7.BorderColor3 = Color3.new(1, 1, 1)
+Line3_7.Position = UDim2.new(-0.00100000005, 0, 0.899999976, 0)
+Line3_7.Size = UDim2.new(0, 250, 0, 0)
+Line3_7.Font = Enum.Font.Gotham
+Line3_7.Text = ""
+Line3_7.TextColor3 = Color3.new(1, 1, 1)
+Line3_7.TextSize = 14
+
+NoMapT.Name = "NoMapT"
+NoMapT.Parent = MiscM
+NoMapT.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoMapT.BorderColor3 = Color3.new(1, 1, 1)
+NoMapT.BorderSizePixel = 0
+NoMapT.Position = UDim2.new(0.00800000038, 0, 0.303333342, 0)
+NoMapT.Size = UDim2.new(0, 124, 0, 30)
+NoMapT.Font = Enum.Font.Gotham
+NoMapT.Text = "Fly (BETA)"
+NoMapT.TextColor3 = Color3.new(1, 1, 1)
+NoMapT.TextSize = 14
+
+Line1_7.Name = "Line1"
+Line1_7.Parent = MiscM
+Line1_7.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line1_7.BorderColor3 = Color3.new(1, 1, 1)
+Line1_7.Position = UDim2.new(-0.000999987125, 0, 0.099999994, 0)
+Line1_7.Size = UDim2.new(0, 250, 0, 0)
+Line1_7.Font = Enum.Font.Gotham
+Line1_7.Text = ""
+Line1_7.TextColor3 = Color3.new(1, 1, 1)
+Line1_7.TextSize = 14
+
+Fly.Name = "Fly"
+Fly.Parent = MiscM
+Fly.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Fly.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.5, 0, 0.306666553, 0)
+Fly.Size = UDim2.new(0, 124, 0, 30)
+Fly.Font = Enum.Font.Gotham
+Fly.Text = "ACTIVATE"
+Fly.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+Fly.TextSize = 20
+
+Line2_7.Name = "Line2"
+Line2_7.Parent = MiscM
+Line2_7.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Line2_7.BorderColor3 = Color3.new(1, 1, 1)
+Line2_7.Position = UDim2.new(0, 0, 0.50666678, 0)
+Line2_7.Size = UDim2.new(0, 250, 0, 0)
+Line2_7.Font = Enum.Font.Gotham
+Line2_7.Text = ""
+Line2_7.TextColor3 = Color3.new(1, 1, 1)
+Line2_7.TextSize = 14
+
+NoMapT_2.Name = "NoMapT"
+NoMapT_2.Parent = MiscM
+NoMapT_2.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoMapT_2.BorderColor3 = Color3.new(1, 1, 1)
+NoMapT_2.BorderSizePixel = 0
+NoMapT_2.Position = UDim2.new(0.00800000038, 0, 0.403333336, 0)
+NoMapT_2.Size = UDim2.new(0, 124, 0, 30)
+NoMapT_2.Font = Enum.Font.Gotham
+NoMapT_2.Text = "NoMap (BETA)"
+NoMapT_2.TextColor3 = Color3.new(1, 1, 1)
+NoMapT_2.TextSize = 14
+
+NoMap.Name = "NoMap"
+NoMap.Parent = MiscM
+NoMap.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+NoMap.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+NoMap.BorderSizePixel = 0
+NoMap.Position = UDim2.new(0.5, 0, 0.399999887, 0)
+NoMap.Size = UDim2.new(0, 124, 0, 30)
+NoMap.Font = Enum.Font.Gotham
+NoMap.Text = "ACTIVATE"
+NoMap.TextColor3 = Color3.new(0.286275, 0.760784, 0.0862745)
+NoMap.TextSize = 20
+
+ScriptyGayM.Name = "ScriptyGayM"
+ScriptyGayM.Parent = MainUI
+ScriptyGayM.BackgroundColor3 = Color3.new(0.384314, 1, 0)
+ScriptyGayM.BorderColor3 = Color3.new(1, 1, 1)
+ScriptyGayM.BorderSizePixel = 0
+ScriptyGayM.Position = UDim2.new(0.375, 0, 0, 0)
+ScriptyGayM.Size = UDim2.new(0, 250, 0, 300)
+ScriptyGayM.Visible = false
+
+SG.Name = "SG"
+SG.Parent = ScriptyGayM
+SG.BackgroundColor3 = Color3.new(0.215686, 1, 0)
+SG.BorderColor3 = Color3.new(1, 1, 1)
+SG.Size = UDim2.new(0, 250, 0, 300)
+SG.Font = Enum.Font.GothamBlack
+SG.Text = "Scripty Gay"
+SG.TextColor3 = Color3.new(1, 0.933333, 0)
+SG.TextScaled = true
+SG.TextSize = 14
+SG.TextWrapped = true
+
+About.Name = "About"
+About.Parent = MainUI
+About.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+About.BorderColor3 = Color3.new(0.862745, 0.505882, 0.0705882)
+About.BorderSizePixel = 2
+About.Position = UDim2.new(0.0309999846, 0, 0.864942551, 0)
+About.Size = UDim2.new(0, 121, 0, 30)
+About.Selected = true
+About.Font = Enum.Font.Gotham
+About.Text = "About BopHub"
+About.TextColor3 = Color3.new(1, 1, 1)
+About.TextSize = 20
+
+Combat.Name = "Combat"
+Combat.Parent = MainUI
+Combat.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Combat.BorderColor3 = Color3.new(0.67451, 0, 0.00784314)
+Combat.BorderSizePixel = 2
+Combat.Position = UDim2.new(0.0309999995, 0, 0.200000003, 0)
+Combat.Size = UDim2.new(0, 121, 0, 30)
+Combat.Font = Enum.Font.Gotham
+Combat.Text = "Combat"
+Combat.TextColor3 = Color3.new(1, 1, 1)
+Combat.TextSize = 20
+
+Credits.Name = "Credits"
+Credits.Parent = MainUI
+Credits.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Credits.BorderColor3 = Color3.new(0.615686, 0.615686, 0)
+Credits.BorderSizePixel = 2
+Credits.Position = UDim2.new(0.0309999995, 0, 0.699999988, 0)
+Credits.Size = UDim2.new(0, 121, 0, 30)
+Credits.Font = Enum.Font.Gotham
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.new(1, 1, 1)
+Credits.TextSize = 20
+
+Home.Name = "Home"
+Home.Parent = MainUI
+Home.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Home.BorderColor3 = Color3.new(0.0627451, 0.67451, 0.67451)
+Home.BorderSizePixel = 2
+Home.Position = UDim2.new(0.0309999995, 0, 0.0350000001, 0)
+Home.Size = UDim2.new(0, 121, 0, 30)
+Home.Font = Enum.Font.Gotham
+Home.Text = "Home"
+Home.TextColor3 = Color3.new(1, 1, 1)
+Home.TextSize = 20
+
+Misc.Name = "Misc"
+Misc.Parent = MainUI
+Misc.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Misc.BorderColor3 = Color3.new(0.635294, 0.0980392, 0.67451)
+Misc.BorderSizePixel = 2
+Misc.Position = UDim2.new(0.0309999995, 0, 0.532000005, 0)
+Misc.Size = UDim2.new(0, 121, 0, 30)
+Misc.Font = Enum.Font.Gotham
+Misc.Text = "Misc"
+Misc.TextColor3 = Color3.new(1, 1, 1)
+Misc.TextSize = 20
+
+Render.Name = "Render"
+Render.Parent = MainUI
+Render.BackgroundColor3 = Color3.new(0.235294, 0.235294, 0.235294)
+Render.BorderColor3 = Color3.new(0.152941, 0.67451, 0.113725)
+Render.BorderSizePixel = 2
+Render.Position = UDim2.new(0.0309999846, 0, 0.369000047, 0)
+Render.Size = UDim2.new(0, 121, 0, 30)
+Render.Font = Enum.Font.Gotham
+Render.Text = "Render"
+Render.TextColor3 = Color3.new(1, 1, 1)
+Render.TextSize = 20
+-- Scripts:
+function SCRIPT_JQBJ80_FAKESCRIPT() -- Close.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Close
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Remove()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JQBJ80_FAKESCRIPT))
+function SCRIPT_GDEZ85_FAKESCRIPT() -- Login.f 
+	local script = Instance.new('LocalScript')
+	script.Parent = Login
+		local authID = 0
+		
+		local script = Instance.new('LocalScript')
+		script.Parent = Login
+			local script = Instance.new('LocalScript')
+			script.Parent = Login
+			function loadUI()
+				LoginFrame.Visible=false
+				MainUI.Visible=true
+				HomeM.Visible=true
+				CombatM.Visible=false
+				MiscM.Visible=false
+				RenderM.Visible=false
+			end
+			
+			script.Parent.MouseButton1Click:Connect(function(plr)
+				loadUi()
+			end)
+			
+	
+end
+coroutine.resume(coroutine.create(SCRIPT_GDEZ85_FAKESCRIPT))
+function SCRIPT_QPJA66_FAKESCRIPT() -- Copy.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Copy
+	script.Parent.MouseButton1Click:Connect(function()
+	setclipboard("https://discord.gg/Vtuy4Up")
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_QPJA66_FAKESCRIPT))
+function SCRIPT_CPGM65_FAKESCRIPT() -- Help.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Help
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.HomeM.Visible=false
+	script.Parent.Parent.Parent.HelpM.Visible=true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_CPGM65_FAKESCRIPT))
+function SCRIPT_TBKL68_FAKESCRIPT() -- Help_2.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Help_2
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.Parent.HelpM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_TBKL68_FAKESCRIPT))
+function SCRIPT_CAKM70_FAKESCRIPT() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Aimbot
+	script.Parent.MouseButton1Click:Connect(function()
+		local UIS = game:GetService('UserInputService')
+	        local RS = game:GetService('RunService')
+	        local Players = game:GetService('Players')
+	        local StarterGui = game:GetService('StarterGui')
+	        local Player = Players.LocalPlayer
+	        local Studio = RS:IsStudio()
+	        local PlayerGui = game.CoreGui
+	        local Mouse = Player:GetMouse()
+	        local old_icon = Mouse.Icon
+	        local Camera = workspace.CurrentCamera
+	        targetpart = 'Head' -- Don't change this.
+	        -- It can be changed with the targetpart_change hotkey ingame.
+	        local target
+	        local alert = false
+	        local lockedon = false
+	        local settingkey = false
+	        local upvals = nil
+	        local val = 1
+	        local windows = {}
+	    
+	    
+	        local version = 1.25
+	        local Spawn = nil or game.PlaceId == 292439477 and workspace:WaitForChild('Lobby',2):WaitForChild('Spawn1',2)
+	        local spawned = false
+	    
+	        script.Name = 'SF Aimbot!'
+	        Mouse.TargetFilter = Camera
+	    
+	        -- hotkey
+	        toggle_aim = Enum.UserInputType.MouseButton2
+	        toggle_aimbot = Enum.KeyCode.Delete
+	        toggle_trigger = Enum.KeyCode.I
+	        toggle_esp = Enum.KeyCode.Delete
+	        toggle_gui = Enum.KeyCode.Delete
+	        toggle_bottompos = Enum.KeyCode.Delete
+	        toggle_performance = Enum.KeyCode.Delete
+	        toggle_bones = Enum.KeyCode.Delete
+	        toggle_chams = Enum.KeyCode.Delete
+	        toggle_tracers = Enum.KeyCode.Delete
+	        toggle_boxes = Enum.KeyCode.Delete
+	        toggle_font = Enum.KeyCode.Delete
+	        ffatoggle = Enum.KeyCode.Delete
+	        targetpart_change = Enum.KeyCode.L
+	        priority_toggle = Enum.KeyCode.Delete
+	        sethotkey = Enum.KeyCode.Delete
+	        -- aim fov
+	        fov_increase = Enum.KeyCode.KeypadPlus
+	        fov_decrease = Enum.KeyCode.KeypadMinus
+	        -- aim sens (how smooth your crosshair will move)
+	        sens_increase = Enum.KeyCode.RightBracket
+	        sens_decrease = Enum.KeyCode.LeftBracket
+	    
+	        -- parts
+	        parts = {
+	            
+	        }
+	    
+	        fonts = {
+	            Enum.Font.SourceSansBold,
+	            Enum.Font.Cartoon,
+	            Enum.Font.Arcade,
+	            Enum.Font.SciFi,
+	            Enum.Font.Fantasy,
+	            Enum.Font.Code,
+	            Enum.Font.Highway,
+	            Enum.Font.Bodoni
+	        }
+	    
+	        textSet = false
+	    
+	        currentfont = 4
+	        hidden = false
+	        performance = false
+	        -- aim
+	        fov = 7
+	        ffa = true
+	        sens = 0.75
+	        drop = 0
+	        aim_toggled = false
+	        bottompos = true
+	        aim_priority = 2
+	        -- [2] FOV or [1] Distance
+	        aimingcolor = Color3.fromRGB(1,1,0)
+	        aimbot_toggled = true
+	        aim_line = true
+	        locksoundid = 538769304
+	        mouseiconid =  18671553
+	    
+	        -- trigger
+	        trigger_toggled = true
+	        trigger_delay = 1/20
+	    
+	        -- esp
+	        esp_toggled = false
+	        esp_bones = false
+	        esp_chams = false
+	        esp_tracers = false
+	        -- item_esp (coming soon)
+	        linesize = 5
+	        showdists = true
+	        textsize = 14
+	        textoffset = 20
+	        visiblecolor = Color3.fromRGB(38,255,99)
+	        hiddencolor = Color3.fromRGB(255,37,40)
+	        headboxsize = 1
+	        headboxaimsize = 2
+	        headboxshape = 'rectangle'
+	        -- rectangle or diamond
+	    
+	        -- box esp
+	        bounding_box = true
+	        -- box_pointsize = 0 [UNUSED]
+	        box_line_size = 1
+	        -- box_line_size_visible = 2 [UNUSED]
+	    
+	        local GUI = Instance.new('ScreenGui',PlayerGui)
+	        GUI.Name = 'SF Aimbot '..version
+	        GUI.ResetOnSpawn = false
+	    
+	        ESP = Instance.new('Folder',GUI)
+	        ESP.Name = 'ESP'
+	        local Bottom = Instance.new('Frame',ESP)
+	        Bottom.Name = 'Bottom'
+	        Bottom.BackgroundTransparency = 1
+	        Bottom.Size = UDim2.new(0,1,0,1)
+	        Bottom.Position = UDim2.new(.5,0,1,1)
+	    
+	        local FovGui = Instance.new('Frame',GUI)
+	        FovGui.Name = 'FovGui'
+	        FovGui.Size = UDim2.new(0,(Camera.ViewportSize.X/(90/fov))*2,0,(Camera.ViewportSize.X/(90/fov))*2)
+	        FovGui.Position = UDim2.new(0.5,-FovGui.AbsoluteSize.X/2,0.5,-FovGui.AbsoluteSize.Y/2)
+	        FovGui.BackgroundTransparency = 1
+	    
+	        local Indicator = Instance.new('TextLabel',GUI)
+	        Indicator.Name = 'Indicator'
+	        Indicator.Font = Enum.Font.SourceSans
+	        Indicator.TextSize = 0
+	        Indicator.TextXAlignment = Enum.TextXAlignment.Center
+	        Indicator.TextYAlignment = Enum.TextYAlignment.Center
+	        Indicator.TextStrokeTransparency = 1
+	        Indicator.Text = aim_priority>1 and 'FOV: '..fov or 'Distance'
+	    
+	        local KeysList = Instance.new('TextLabel',GUI)
+	        KeysList.Name = 'KeysList'
+	        KeysList.Font = Enum.Font.SourceSans
+	        KeysList.TextStrokeTransparency = 1
+	        KeysList.TextSize = 0
+	        KeysList.TextColor3 = Color3.new(1,1,1)
+	        KeysList.Size = UDim2.new(0,0,1,0)
+	        KeysList.Position = UDim2.new(0,5,0,-280)
+	        KeysList.BackgroundTransparency = 1
+	        KeysList.Active = false
+	    
+	        local n = 0
+	    
+	        spawn(function()
+	            while Status do
+	                Indicator.TextColor3 = Color3.fromHSV(n,.5,1)
+	                FovGui.ImageColor3 = Indicator.TextColor3
+	                if not textSet then
+	                if aim_toggled and target then
+	                    Status.TextColor3 = aimingcolor
+	                    Status.Text = ('Aiming at '..target.Name)
+	                else
+	                    Status.TextColor3 = Color3.fromHSV(n,.5,1)
+	                    Status.Text = 'On Standby'
+	                end
+	                end
+	                n = 0
+	    
+	            end
+	        end)
+	        local function distfromspawn(x)
+	            if Spawn then
+	                return x:DistanceFromCharacter(Spawn.Position)
+	            else
+	                return 201
+	            end
+	        end
+	    
+	        local function playsound(id)
+	            local sound = Instance.new('Sound',Camera)
+	            sound.Volume = 3
+	            sound:Play()
+	            game:GetService('Debris'):AddItem(sound,5)
+	        end
+	    
+	    
+	        local function DrawLine(Folder,P1,P2,Thickness,Color,LineTransparency,BorderThickness,BorderColor)
+	            -- Declare variables
+	            local Point1,Point2 = P1.Position,P2.Position
+	            if Point1 and Point2 then
+	            local X,Y = Camera.ViewportSize.X, Camera.ViewportSize.Y
+	            local X1,X2 = (X * Point1.X.Scale + Point1.X.Offset + P1.Size.X.Offset/2), (X * Point2.X.Scale + Point2.X.Offset + P2.Size.X.Offset/2)
+	            local Y1,Y2 = (Y * Point1.Y.Scale + Point1.Y.Offset + P1.Size.Y.Offset/2), (Y * Point2.Y.Scale + Point2.Y.Offset + P2.Size.Y.Offset/2)
+	            local MidX,MidY = (X1+X2)/2, (Y1+Y2)/2
+	            -- Set defaults to prevent errors
+	            Thickness = Thickness or 1
+	            Color = Color or Color3.new(1,1,1)
+	            LineTransparency =  LineTransparency or 0
+	            BorderThickness = BorderThickness or 0
+	            BorderColor = BorderColor or Color3.new(0,0,0)
+	            -- Draw the line
+	            local Line = Folder:FindFirstChild(P1.Name..'-'..P2.Name) or Instance.new('Frame',Folder)
+	            Line.Visible = false
+	            Line.BackgroundTransparency = LineTransparency
+	            Line.BorderSizePixel = BorderThickness
+	            Line.BorderColor3 = BorderColor
+	            Line.Size = UDim2.new(0,(Vector2.new(X1,Y1) - Vector2.new(X2,Y2)).magnitude-1,0,Thickness)
+	            Line.Position = UDim2.new(0,MidX-Line.AbsoluteSize.X/2,0,MidY-Line.AbsoluteSize.Y)
+	            Line.BackgroundColor3 = Color
+	            Line.Rotation = math.deg(math.atan2((Y2-Y1),(X2-X1)))
+	            Line.Name = P1.Name..'-'..P2.Name
+	            Line.Visible = true
+	            return Line
+	            else
+	                return nil
+	            end
+	        end
+	    
+	        local function GetNearest(e)
+	            local lowest,nearest,gui = math.huge,nil,nil
+	            if e==1 then
+	            for _,plr in next,Players:GetPlayers() do
+	                if plr.Name~=Player.Name and plr.Character~=nil and plr.Character:FindFirstChild(targetpart) then
+	                    local dist = Player:DistanceFromCharacter(plr.Character[targetpart].Position)
+	                    local ray = Ray.new(Player.Character.Head.Position,(plr.Character[targetpart].Position-Player.Character.Head.Position).unit*2000)
+	                    local part,point = workspace:FindPartOnRayWithIgnoreList(ray,{Camera,Player.Character,unpack(windows)})
+	                    local Z = Camera:WorldToScreenPoint(plr.Character[targetpart].Position).x
+	                    if part and part:IsDescendantOf(plr.Character) and Z>0 and dist < lowest and (ffa or plr.TeamColor~=Player.TeamColor) then lowest = dist nearest = plr.Character end
+	                end
+	            end
+	            elseif e==2 then
+	                for _,plr in next,Players:GetPlayers() do
+	                    if plr.Name~=Player.Name and plr.Character~=nil and plr.Character:FindFirstChild(targetpart) then
+	                        local pos = Camera:WorldToScreenPoint(plr.Character[targetpart].Position)
+	                        local ray = Ray.new(Player.Character[targetpart].Position,(plr.Character[targetpart].Position-Player.Character[targetpart].Position).unit*2048)
+	                        local part,point = workspace:FindPartOnRayWithIgnoreList(ray,{Camera,Player.Character,unpack(windows)})
+	                        local dist = (Vector2.new(Mouse.X,Mouse.Y)-Vector2.new(pos.X,pos.Y)).magnitude
+	                        if part and part:IsDescendantOf(plr.Character) and pos.Z>0 and dist <= Camera.ViewportSize.X/(90/fov) and dist < lowest and (ffa or plr.TeamColor~=Player.TeamColor) then lowest = dist nearest = plr.Character end
+	                    end
+	                end
+	            end
+	            return nearest
+	        end
+	    
+	        Mouse.Move:Connect(function()
+	            cursor = ESP:FindFirstChild('Cursor') or Instance.new('Frame',ESP)
+	            cursor.Name = 'Cursor'
+	            cursor.BackgroundTransparency = 1
+	            cursor.Size = UDim2.new(0,1,0,1)
+	            cursor.Position = UDim2.new(0,Mouse.X,0,Mouse.Y)
+	        end)
+	    
+	        UIS.InputBegan:Connect(function(Input)
+	            if Input.KeyCode == toggle_aim or Input.UserInputType == toggle_aim then
+	                aim_toggled = true
+	                alert = true
+	                while aim_toggled and aimbot_toggled do
+	                    target = GetNearest(aim_priority)
+	                    if target then
+	                        local dist = Player:DistanceFromCharacter(target[targetpart].Position)
+	                        local headpos = Camera:WorldToScreenPoint(target[targetpart].Position+Vector3.new(0,dist/(100/drop),0))
+	                        local moveto = Vector2.new((headpos.X-Mouse.X)*sens,(headpos.Y-Mouse.Y)*sens)
+	                        mousemoverel(moveto.X,moveto.Y)
+	                    end
+	                    wait()
+	                end
+	                lockedon = false
+	            elseif Input.KeyCode == toggle_trigger then
+	                trigger_toggled = not trigger_toggled
+	                local Box = Instance.new('SelectionBox',PlayerGui)
+	                Box.Color3 = Color3.new(1,0,0)
+	                Box.LineThickness = .05
+	                Box.Adornee = nil
+	                if trigger_delay>0 then wait(trigger_delay) end
+	                while trigger_toggled do
+	                local Target = Mouse.Target
+	                local plr = Players:FindFirstChild(Target.Parent.Name)
+	                if Target and Target.Parent and plr~=nil and plr~=Player and ffa or plr~=nil and plr.TeamColor~=Player.TeamColor then
+	                    Box.Adornee = Mouse.Target
+	                    mouse1press()
+	                    wait()
+	                    mouse1release()
+	                end
+	                RS.Heartbeat:wait()
+	                end
+	                Box:Destroy()
+	            elseif Input.KeyCode == toggle_esp then
+	                esp_toggled = not esp_toggled
+	            elseif Input.KeyCode == toggle_aimbot then
+	                aimbot_toggled = not aimbot_toggled
+	                
+	            elseif Input.KeyCode == fov_increase then
+	                fov = fov + .5
+	    
+	                if FovGui.Visible then
+	                    FovGui:TweenSize(UDim2.new(0,(Camera.ViewportSize.X/(90/fov))*2,0,(Camera.ViewportSize.X/(90/fov))*2),Enum.EasingDirection.InOut,Enum.EasingStyle.Quad,.1,true)
+	                end
+	                
+	            elseif Input.KeyCode == fov_decrease and fov>0 then
+	                fov = fov - .5
+	    
+	                if FovGui.Visible then
+	                    FovGui:TweenSize(UDim2.new(0,(Camera.ViewportSize.X/(90/fov))*2,0,(Camera.ViewportSize.X/(90/fov))*2),Enum.EasingDirection.InOut,Enum.EasingStyle.Quad,.1,true)
+	                end
+	                
+	            elseif Input.KeyCode == sens_increase then
+	                sens = sens + .05
+	    
+	                
+	            elseif Input.KeyCode == sens_decrease then
+	                sens = sens - .05
+	    
+	                
+	            elseif Input.KeyCode == targetpart_change then
+	                val = val+1
+	                targetpart = val<=#parts and parts[val] or parts[1]
+	                if parts[1]==targetpart then val = 1 end
+	            elseif Input.KeyCode == ffatoggle then
+	                ffa = not ffa
+	            elseif Input.KeyCode == priority_toggle then
+	                aim_priority = aim_priority+1>2 and 0 or 1
+	                aim_priority = aim_priority+1
+	                FovGui.Visible = aim_priority>1
+	            elseif Input.KeyCode == toggle_bones then
+	                esp_bones = not esp_bones
+	                if not esp_bones then
+	                for _,v in next,ESP:GetDescendants() do
+	                    if v:IsA('Frame') and v.Name:match('-') then
+	                        v:Destroy()
+	                    end
+	                end
+	                end
+	            elseif Input.KeyCode == toggle_gui then
+	                hidden = not hidden
+	                for _,gui in next,GUI:GetDescendants() do
+	                    if gui:IsA('GuiObject') and not hidden and not gui.Visible then
+	                        gui.Visible = true
+	                        Mouse.Icon = 'rbxassetid://'..mouseiconid
+	                    elseif gui:IsA('GuiObject') and gui.Visible then
+	                        gui.Visible = false
+	                        esp_toggled = false
+	                        Mouse.Icon = old_icon
+	                    end
+	                    end
+	                elseif Input.KeyCode == toggle_bottompos then
+	                    bottompos = not bottompos
+	                    if bottompos then
+	                        Bottom.Position = UDim2.new(.5,0,1,1)
+	                    end
+	                elseif Input.KeyCode == toggle_performance then
+	                    performancee = not performancee
+	                elseif Input.KeyCode == toggle_chams then
+	                    esp_chams = not esp_chams
+	                elseif Input.KeyCode == toggle_tracers then
+	                    esp_tracers = not esp_tracers
+	                elseif Input.KeyCode == toggle_boxes then
+	                    bounding_box = not bounding_box
+	                elseif Input.KeyCode == toggle_font then
+	                        currentfont = (currentfont+1)>#fonts and 1 or currentfont+1
+	                        for _,v in next,GUI:GetDescendants() do
+	                            if v.Name~='KeysList' then
+	                            if v:IsA('TextLabel') or v:IsA('TextButton') then
+	                                v.Font = fonts[currentfont]
+	                            end
+	                            end
+	                        end
+	                end
+	        end)
+	    
+	        UIS.InputEnded:Connect(function(Input)
+	            if Input.KeyCode == toggle_aim or Input.UserInputType == toggle_aim then
+	                aim_toggled = false
+	            end
+	        end)
+	    
+	        local function checkifspawned(x)
+	            spawned = false
+	            while not spawned and game.PlaceId==292439477 do
+	                spawned = distfromspawn(x)>200 and true or false
+	                wait(1/5)
+	            end
+	            spawned = true
+	        end
+	    
+	        checkifspawned(Player)
+	        Player.CharacterAdded:Connect(function(c)
+	            checkifspawned(Player)
+	    
+	            for _,v in next,ESP:GetDescendants() do
+	                if v:IsA('Frame') and v.Name:match('-') then
+	                    v:Destroy()
+	                end
+	            end
+	        end)
+	    
+	        wait(.5)
+	    
+	        RS.RenderStepped:Connect(function()
+	            if cursor then
+	                FovGui.Position = cursor.Position-UDim2.new(0,FovGui.AbsoluteSize.X/2,0,FovGui.AbsoluteSize.Y/2)
+	                Indicator.Position = cursor.Position+UDim2.new(0,0,0,40)
+	            end
+	        end)
+	    
+	        Mouse.Button1Down:Connect(function()
+	            spawn(function()
+	                if FovGui.Visible then
+	                    FovGui:TweenSize(UDim2.new(0,Camera.ViewportSize.X/(90/fov)*2.35,0,Camera.ViewportSize.X/(90/fov)*2.35),Enum.EasingDirection.InOut,Enum.EasingStyle.Quad,.1,true)
+	                    wait(.1)
+	                    FovGui:TweenSize(UDim2.new(0,Camera.ViewportSize.X/(90/fov)*2,0,Camera.ViewportSize.X/(90/fov)*2),Enum.EasingDirection.InOut,Enum.EasingStyle.Quad,.1,true)
+	                end
+	            end)
+	        end)
+	    
+	        while true do
+	            Indicator.Text = (aim_priority>1 and 'FOV: '..fov or 'Distance') ..'\nSens: '..sens..(aim_toggled and '\nAiming' or '')
+	            if not bottompos then Bottom.Position = cursor.Position end
+	            if esp_toggled then
+	            for _,v in next,ESP:children() do
+	                if v~=Bottom and not Players:FindFirstChild(v.Name) then
+	                    v:Destroy()
+	                end
+	            end
+	            for _,v in next,Players:GetPlayers() do
+	                local Char = v.Character
+	                if Char and spawned and v~=Player and Char:FindFirstChild(targetpart) and distfromspawn(v)>100 then
+	                    if ffa or v.TeamColor~=Player.TeamColor then
+	                    local X = Camera:GetPartsObscuringTarget({Camera.CFrame.p,Char[targetpart].CFrame.p},{v.Character,Char,Camera,unpack(windows)})
+	                    local Dist = Player:DistanceFromCharacter(Char:FindFirstChild(targetpart).Position)
+	                    local Color = hiddencolor
+	                    local Folder = ESP:FindFirstChild(v.Name) or Instance.new('Folder',ESP)
+	                    Folder.Name = v.Name
+	                    -- ESP
+	                    local Head = Folder:FindFirstChild('Head') or Instance.new('Frame',Folder)
+	                    if not Folder:FindFirstChild('Head') then
+	                    Head.Name = 'Head'
+	                    Head.BorderSizePixel = 1
+	                    Head.BorderColor3 = Color3.new(0,0,0)
+	                    Head.BackgroundTransparency = 1
+	                    end
+	                    Head.BackgroundColor3 = #X>0 and hiddencolor or #X==0 and visiblecolor
+	                    Head.Rotation = headboxshape=='diamond' and 45 or 0
+	                    Head.ZIndex = 3
+	                    local HP = Folder:FindFirstChild('HP') or Instance.new('TextLabel',Folder)
+	                    if not Folder:FindFirstChild('HP') then
+	                    HP.Name = 'HP'
+	                    HP.TextTransparency = Head.BackgroundTransparency- 1
+	                    HP.Font = fonts[currentfont]
+	                    HP.TextStrokeTransparency = 1
+	                    HP.BackgroundTransparency = 1
+	                    HP.TextSize = 14
+	                    end
+	                    HP.Text = showdists and Char.Name..'\n'..math.floor(Dist+.5) or Char.Name
+	                    if aim_toggled and target==Char then
+	                        Head.Size = UDim2.new(0,headboxaimsize,0,headboxaimsize)
+	                        Head.BackgroundColor3 = aimingcolor
+	                        HP.Text = showdists and '['..Char.Name..']'..'\n'..math.floor(Dist+.5) or '['..Char.Name..']'
+	                        HP.TextSize = 16
+	                    else
+	                        Head.Size = UDim2.new(0,headboxsize,0,headboxsize)
+	                    end
+	                    HP.TextColor3 = Head.BackgroundColor3
+	                    local toScreen = Camera:WorldToScreenPoint(Char[targetpart].CFrame.p)
+	                    if #X==0 then Color = visiblecolor end
+	                    Head.Position = UDim2.new(0,toScreen.X-Head.Size.X.Offset/2,0,toScreen.Y-Head.Size.Y.Offset/2)
+	                    HP.Position = Head.Position-UDim2.new(0,0,0,textoffset)
+	                    if esp_tracers then
+	                    local Line = DrawLine(Folder,ESP.Bottom,Head,linesize,Head.BackgroundColor3,.75,1,Color3.new(0,0,0))
+	                        Line.Visible = Head.Visible
+	                    else
+	                        local imtired = Folder:FindFirstChild(ESP.Bottom.Name..'-'..Head.Name)
+	                        if imtired then
+	                            imtired:Destroy()
+	                        end
+	                    end
+	                    if toScreen.Z<=0 then Head.Visible = false else Head.Visible = true end
+	                    HP.Visible = Head.Visible
+	                    if Char:FindFirstChild('Humanoid') and Char.Humanoid.RigType==Enum.HumanoidRigType.R6 then
+	                    local Neck = Folder:FindFirstChild('Neck') or Instance.new('Frame',Folder)
+	                    Neck.Name = 'Neck'
+	                    Neck.ZIndex = 2
+	                    if Char['Torso']~=nil then
+	                    local Pos = (Char.Torso.CFrame*CFrame.new(0,.8,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    Neck.Position = UDim2.new(0,X,0,Y)
+	                    Neck.BorderSizePixel = 0
+	                    if Z<=0 then Neck.Visible = false else Neck.Visible = true end
+	                    else
+	                        Neck.Visible = false
+	                    end
+	                    --
+	                    local Pelvis = Folder:FindFirstChild('Pelvis') or Instance.new('Frame',Folder)
+	                    Pelvis.Name = 'Pelvis'
+	                    Pelvis.ZIndex = 2
+	                    Pelvis.BorderSizePixel = 0
+	                    if Char['Torso']~=nil then
+	                    local Pos = (Char.Torso.CFrame*CFrame.new(0,-1,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    Pelvis.Position = UDim2.new(0,X,0,Y)
+	                    if Z<=0 then Pelvis.Visible = false else Pelvis.Visible = true end
+	                    else
+	                        Pelvis.Visible = false
+	                    end
+	                    --
+	                    local RightFoot = Folder:FindFirstChild('Right Foot') or Instance.new('Frame',Folder)
+	                    RightFoot.Name = 'Right Foot'
+	                    RightFoot.ZIndex = 2
+	                    RightFoot.BorderSizePixel = 0
+	                    if Char['Right Leg']~=nil then
+	                    local Pos = (Char['Right Leg'].CFrame*CFrame.new(0,-1,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    RightFoot.Position = UDim2.new(0,X,0,Y)
+	                    if Z<=0 then RightFoot.Visible = false else RightFoot.Visible = true end
+	                    else
+	                        RightFoot.Visible = false
+	                    end
+	                    --
+	                    local LeftFoot = Folder:FindFirstChild('Left Foot') or Instance.new('Frame',Folder)
+	                    LeftFoot.Name = 'Left Foot'
+	                    if Char['Left Leg']~=nil then
+	                    local Pos = (Char['Left Leg'].CFrame*CFrame.new(0,-1,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    LeftFoot.Position = UDim2.new(0,X,0,Y)
+	                    LeftFoot.BorderSizePixel = 0
+	                    if Z<=0 then LeftFoot.Visible = false else LeftFoot.Visible = true end
+	                    else
+	                        LeftFoot.Visible = false
+	                    end
+	                    --
+	                    local RightHand = Folder:FindFirstChild('Right Hand') or Instance.new('Frame',Folder)
+	                    RightHand.Name = 'Right Hand'
+	                    RightHand.ZIndex = 2
+	                    RightHand.BorderSizePixel = 0
+	                    if Char['Right Arm']~=nil then
+	                    local Pos = (Char['Right Arm'].CFrame*CFrame.new(0,-1,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    RightHand.Position = UDim2.new(0,X,0,Y)
+	                    if Z<=0 then RightHand.Visible = false else RightHand.Visible = true end
+	                    else
+	                        RightHand.Visible = false
+	                    end
+	                    --
+	                    local LeftHand = Folder:FindFirstChild('Left Hand') or Instance.new('Frame',Folder)
+	                    LeftHand.Name = 'Left Hand'
+	                    LeftHand.ZIndex = 2
+	                    LeftHand.BorderSizePixel = 0
+	                    if Char['Left Arm']~=nil then
+	                    local Pos = (Char['Left Arm'].CFrame*CFrame.new(0,-1,0)).p
+	                    local X,Y,Z = Camera:WorldToScreenPoint(Pos).X,Camera:WorldToScreenPoint(Pos).Y,Camera:WorldToScreenPoint(Pos).Z
+	                    LeftHand.Position = UDim2.new(0,X,0,Y)
+	                    if Z<=0 then LeftHand.Visible = false else LeftHand.Visible = true end
+	                    else
+	                        LeftHand.Visible = false
+	                    end
+	                    -- draw joints
+	                    if esp_bones then
+	                    if Head.Visible then DrawLine(Folder,Head,Neck,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    if Neck.Visible then DrawLine(Folder,Neck,Pelvis,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    if Neck.Visible then DrawLine(Folder,Neck,RightHand,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    if Neck.Visible then DrawLine(Folder,Neck,LeftHand,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    if Pelvis.Visible then DrawLine(Folder,Pelvis,RightFoot,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    if Pelvis.Visible then DrawLine(Folder,Pelvis,LeftFoot,1,Color3.new(1,1,1),Head.BackgroundTransparency) end
+	                    end
+	                    end
+	    
+	                    if esp_chams then
+	                        for _,Part in next,Char:children() do
+	                            if Part:IsA('BasePart') and Part.Name~='HumanoidRootPart' then
+	                                local Adornment = Folder:FindFirstChild(Part.Name..'_Cham') or Instance.new('BoxHandleAdornment',Folder)
+	                                if not Folder:FindFirstChild(Part.Name..'_Cham') then
+	                                Adornment.Name = Part.Name..'_Cham'
+	                                Adornment.Adornee = Part
+	                                Adornment.AlwaysOnTop = true
+	                                Adornment.Size = Part.Name=='Head' and Vector3.new(1,1,1) or Part.Size
+	                                Adornment.ZIndex = 1
+	                                end
+	                                Adornment.Color3 = Head.BackgroundColor3
+	                            end
+	                        end
+	                    else
+	                        for _,v in next,Folder:GetDescendants() do
+	                            if v.Name:match('Cham') then
+	                                v:Destroy()
+	                            end
+	                        end
+	                    end
+	    
+	                    if bounding_box and Char:FindFirstChild('HumanoidRootPart') then
+	                        local Box = Char:FindFirstChild('Box') or Instance.new('BillboardGui',Char)
+	                        if not Char:FindFirstChild('Box') then
+	                        Box.Name = 'Box'
+	                        Box.Adornee = Char:FindFirstChild('HumanoidRootPart')
+	                        Box.AlwaysOnTop = true
+	                        Box.LightInfluence = 0
+	                        Box.StudsOffset = Vector3.new(0,-Box.Adornee.Size.Y/4,0)
+	                        Box.Size = UDim2.new(4,1,5,1)
+	                        local Top = Instance.new('Frame',Box)
+	                        Top.Size = UDim2.new(1,0,0,box_line_size)
+	                        Top.BorderSizePixel = 0
+	                        local Bot = Top:Clone()
+	                        Bot.Position = UDim2.new(0,0,1,-box_line_size)
+	                        Bot.Parent = Box
+	                        local Left = Top:Clone()
+	                        Left.Size = UDim2.new(0,1,1,0)
+	                        Left.Parent = Box
+	                        local Right = Left:Clone()
+	                        Right.Position = UDim2.new(1,-box_line_size,0,0)
+	                        Right.Parent = Box
+	                        end
+	                        for _,v in next,Box:children() do
+	        if v:IsA('Frame') then
+	        v.BackgroundColor3 = Head.BackgroundColor3
+	                            end
+	                        end
+	                    else
+	                        local Box = Char:FindFirstChild('Box')
+	                        if Box then
+	        Box:Destroy()
+	                        end
+	                    end
+	    
+	                    if lockedon and target and aim_line and ESP:FindFirstChild(target.Name) then
+	                        DrawLine(ESP,cursor,ESP:FindFirstChild(target.Name).Head,1,Head.BackgroundColor3,.5)
+	                    end
+	    
+	                else
+	                    if ESP:FindFirstChild(v.Name) then
+	                        ESP:FindFirstChild(v.Name):Destroy()
+	                    end
+	                    end
+	                else
+	                    if ESP:FindFirstChild(v.Name) then
+	                        ESP:FindFirstChild(v.Name):Destroy()
+	                    end
+	                end
+	                end
+	        else
+	        for _,v in next,ESP:children() do
+	        if v:IsA('Folder') then
+	            v:Destroy()
+	        end
+	        end
+	        end
+	        if performancee then
+	        wait(1/(workspace:GetRealPhysicsFPS()))
+	        else
+	        RS.Stepped:wait()
+	        end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_CAKM70_FAKESCRIPT))
+function SCRIPT_OPZC86_FAKESCRIPT() -- Hitboxes.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Hitboxes
+	script.Parent.MouseButton1Click:Connect(function()
+	while true do
+		    for i,v in next, game:GetService('Players'):GetPlayers() do 
+		        if v ~= plr then 
+		        pcall(function()
+		            v.Character.HDetector.Size = Vector3.new(5,5,7,8)
+		            v.Character.HDetector.Transparency=0.65
+					v.Character.HDetector.Color = Color3.fromHSV(i,3,5,2)
+		        end)
+		    end
+		end
+		wait()
+	end
+end)
+end
+coroutine.resume(coroutine.create(SCRIPT_OPZC86_FAKESCRIPT))
+function SCRIPT_AQSK82_FAKESCRIPT() -- RapidFire.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = RapidFire
+	script.Parent.MouseButton1Click:Connect(function()
+	for a,b in pairs(getreg())do if typeof(b)=="table"then if b.Debounce then b.Debounce=0.060912 end end end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_AQSK82_FAKESCRIPT))
+function SCRIPT_WCIN88_FAKESCRIPT() -- BoxESP.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = BoxESP
+	script.Parent.MouseButton1Click:Connect(function()
+	local gui = Instance.new("BillboardGui");
+	gui.Name = "";
+	gui.AlwaysOnTop = true;
+	gui.LightInfluence = 0;
+	gui.Size = UDim2.new(1.75, 0, 1.75, 0);
+	local frame = Instance.new("Frame", gui);
+	frame.BackgroundColor3 = Color3.fromRGB(250, 0, 0);
+	frame.BackgroundTransparency = 0.1
+	frame.Size = UDim2.new(1, 1, 3, 1);
+	frame.BorderSizePixel = 2;
+	frame.BorderColor3 = Color3.fromRGB(40, 40, 40);
+	local gi = gui:Clone();
+	local body = frame:Clone();
+	body.Parent = gi;
+	body.BackgroundColor3 = Color3.fromRGB(0, 160, 160);
+	
+	while true do
+	for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+	    if v.Name ~= game:GetService("Players").LocalPlayer.Name and v.Character and v.Character:FindFirstChild("Head") then
+	        gui:Clone().Parent = v.Character.Head;
+		end
+		wait()
+		end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_WCIN88_FAKESCRIPT))
+function SCRIPT_JRHS89_FAKESCRIPT() -- Help_3.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Help_3
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.Parent.HelpM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JRHS89_FAKESCRIPT))
+function SCRIPT_SHMH78_FAKESCRIPT() -- Chams.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Chams
+	script.Parent.MouseButton1Click:Connect(function()
+		-- -----------------------------------
+	--  ___      _   _   _              --
+	-- / __| ___| |_| |_(_)_ _  __ _ ___--
+	-- \__ \/ -_)  _|  _| | ' \/ _` (_-<--
+	-- |___/\___|\__|\__|_|_||_\__, /__/--
+	--                         |___/    --
+	-- -----------------------------------
+	-- -----------------------------------
+									ALLYCOLOR = {0,255,255}  	--//Color of the ESP  of people on the same team
+									ENEMYCOLOR =  {255,0,0} 	--//Color of the ESP  of people on NOT the same team
+									TRANSPARENCY = 0.5			--//Transparency of the ESP
+									HEALTHBAR_ACTIVATED = true 	--//Renders the Healthbar
+	--
+	--
+	
+	--							!!!Don't Change Anything Below Here Unless You Know What You're Doing!!!
+	
+	function createFlex()
+	-- -----------------------------------------------------------------------------------
+	--[VARIABLES] //Changing may result in Errors!
+	players = game:GetService("Players") --//Required for PF
+	faces = {"Front","Back","Bottom","Left","Right","Top"} --//Every possible Enum face
+	currentPlayer = nil --//Used for the Team-Check
+	lplayer = players.LocalPlayer --//The LocalPlayer
+	-- -----------------------------------------------------------------------------------
+	players.PlayerAdded:Connect(function(p)
+		currentPlayer = p
+			p.CharacterAdded:Connect(function(character) --//For when a new Player joins the game 
+				createESP(character)			
+			end)		
+	end)
+	-- -----------------------------------------------------------------------------------
+	function checkPart(obj)  if (obj:IsA("Part") or obj:IsA("MeshPart")) and obj.Name~="HumanoidRootPart" then return true end end --//Check if the Part is suitable 
+	-- -----------------------------------------------------------------------------------
+	function actualESP(obj) 
+		
+		for i=0,5 do
+			surface = Instance.new("SurfaceGui",obj) --//Creates the SurfaceGui
+			surface.Face = Enum.NormalId[faces[i+1]] --//Adjusts the Face and chooses from the face table
+			surface.AlwaysOnTop = true
+	
+			frame = Instance.new("Frame",surface)	--//Creates the viewable Frame
+			frame.Size = UDim2.new(2,0,2,0)
+			frame.BorderSizePixel = 0												
+			frame.BackgroundTransparency = TRANSPARENCY
+				if currentPlayer.Team == players.LocalPlayer.Team then --//Checks the Players Team
+						frame.BackgroundColor3 = Color3.new(ALLYCOLOR[1],ALLYCOLOR[2],ALLYCOLOR[3])	--//If in same Team											
+				else
+					frame.BackgroundColor3 = Color3.new(ENEMYCOLOR[1],ENEMYCOLOR[2],ENEMYCOLOR[3])	--//If in another Team
+				end
+																
+		end
+	end
+	-- -----------------------------------------------------------------------------------
+	function createHealthbar(hrp) 
+		board =Instance.new("BillboardGui",hrp) --//Creates the BillboardGui with HumanoidRootPart as the Parent
+		board.Name = "total"
+		board.Size = UDim2.new(2,0,2,0)
+		board.StudsOffset = Vector3.new(3,1,0)
+		board.AlwaysOnTop = true
+	
+		bar = Instance.new("Frame",board) --//Creates the red background
+		bar.BackgroundColor3 = Color3.new(255,0,0)
+		bar.BorderSizePixel = 0
+		bar.Size = UDim2.new(0.2,0,4,0)
+		bar.Name = "total2"
+													
+		health = Instance.new("Frame",bar) --//Creates the changing green Frame
+		health.BackgroundColor3 = Color3.new(0,255,0)
+		health.BorderSizePixel = 0
+		health.Size = UDim2.new(1,0,hrp.Parent.Humanoid.Health/100,0)
+			hrp.Parent.Humanoid.Changed:Connect(function(property) --//Triggers when any Property changed
+				hrp.total.total2.Frame.Size = UDim2.new(1,0,hrp.Parent.Humanoid.Health/100,0) --//Adjusts the size of the green Frame								
+			end)
+	end
+	-- -----------------------------------------------------------------------------------
+	function createESP(c) --//Checks and calls the proper function
+		bugfix = c:WaitForChild("Head") --// *Used so the children of the character arent nil.
+		for i,v in pairs(c:GetChildren()) do
+			if checkPart(v) then
+			actualESP(v)
+			end
+		end
+		if HEALTHBAR_ACTIVATED then --//If the user decided to
+			createHealthbar(c:WaitForChild("HumanoidRootPart")) --//Calls the function of the creation
+		end
+	end
+	-- -----------------------------------------------------------------------------------
+	for i,people in pairs(players:GetChildren())do
+		if people ~= players.LocalPlayer then
+			currentPlayer = people
+																	--//Used for Players already in the Game
+			createESP(people.Character)
+				people.CharacterAdded:Connect(function(character)
+					createESP(character)			
+				end)
+		end
+	end
+	-- -----------------------------------------------------------------------------------
+	end --//End of the entire function
+	
+	createFlex() --// Does exactly that :)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_SHMH78_FAKESCRIPT))
+function SCRIPT_KELN78_FAKESCRIPT() -- Spinbot.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Spinbot
+	script.Parent.MouseButton1Click:connect(function()
+	local plr=game:GetService('Players').LocalPlayer
+	plr.CharacterAdded:Connect(function(plrc)
+	    while wait() do
+	    plrc.HumanoidRootPart.Rotation = Vector3.new(0,math.random(-150,150),0)
+	    plrc.LowerTorso.Rotation = plrc.HumanoidRootPart.Rotation
+	    plrc.UpperTorso.Rotation = plrc.HumanoidRootPart.Rotation
+	    plrc.Head.Rotation = plrc.HumanoidRootPart.Rotation
+	end
+	end)
+	end)
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KELN78_FAKESCRIPT))
+function SCRIPT_UIAN89_FAKESCRIPT() -- Help_4.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Help_4
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.Parent.HelpM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_UIAN89_FAKESCRIPT))
+function SCRIPT_STHA79_FAKESCRIPT() -- InfJump.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = InfJump
+	script.Parent.MouseButton1Click:Connect(function()
+	local Player = game:GetService'Players'.LocalPlayer;
+	local UIS = game:GetService'UserInputService';
+	
+	_G.JumpHeight = 50;
+	
+	function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+	UIS.InputBegan:connect(function(UserInput)
+	    if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+	        Action(Player.Character.Humanoid, function(self)
+	            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+	                Action(self.Parent.HumanoidRootPart, function(self)
+	                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+	                end)
+	            end
+	        end)
+	    end
+	end)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_STHA79_FAKESCRIPT))
+function SCRIPT_ARYE72_FAKESCRIPT() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Fly
+	script.Parent.MouseButton1Click:Connect(function()
+		local Player = game:GetService("Players").LocalPlayer;
+	local UserInputService = game:GetService("UserInputService");
+	local Bricks = {};
+	local Space;
+	local WalkInAir = false;
+	
+	UserInputService.InputBegan:Connect(function(
+	InputObject,
+	GameProcessedEvent
+	)
+	if (
+	(not GameProcessedEvent) and
+	(InputObject.UserInputType == Enum.UserInputType.Keyboard)
+	) then
+	if (InputObject.KeyCode == Enum.KeyCode.P) then
+	for Key, Value in next, Bricks do
+	Value:Destroy();
+	end;
+	elseif (InputObject.KeyCode == Enum.KeyCode.Space) then
+	Space = true;
+	elseif (InputObject.KeyCode == Enum.KeyCode.L) then
+	WalkInAir = (not WalkInAir);
+	end;
+	end;
+	end);
+	
+	UserInputService.InputEnded:Connect(function(
+	InputObject,
+	GameProcessedEvent
+	)
+	if (
+	(not GameProcessedEvent) and
+	(InputObject.UserInputType == Enum.UserInputType.Keyboard)
+	) then
+	if (InputObject.KeyCode == Enum.KeyCode.Space) then
+	Space = nil;
+	end;
+	end;
+	end);
+	
+	local LastPosition = Vector3.new(0, 0, 0);
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+	local PositionChanged;
+	local LowerTorso = (
+	Player.Character or
+	Player.CharacterAdded:wait()
+	):WaitForChild("LowerTorso");
+	if ((LowerTorso.Position - LastPosition).Magnitude > 0.75) then
+	PositionChanged = true;
+	end;
+	if (Space or (WalkInAir and PositionChanged)) then
+	local FlyBrick = Instance.new("Part",
+	(
+	LowerTorso:GetChildren()[1] or
+	LowerTorso
+	)
+	);
+	FlyBrick.Transparency = 1;
+	FlyBrick.Anchored = true;
+	FlyBrick.CFrame = (
+	LowerTorso.CFrame *
+	CFrame.new(0, -2.25, 0)
+	);
+	FlyBrick.Size = Vector3.new(5, 0.05, 5);
+	FlyBrick.BrickColor = BrickColor.new("Institutional white");
+	FlyBrick.Locked = true;
+	FlyBrick.TopSurface = Enum.SurfaceType.SmoothNoOutlines;
+	FlyBrick.BottomSurface = FlyBrick.TopSurface;
+	FlyBrick.RightSurface = FlyBrick.TopSurface;
+	FlyBrick.LeftSurface = FlyBrick.TopSurface;
+	FlyBrick.FrontSurface = FlyBrick.TopSurface;
+	FlyBrick.BackSurface = FlyBrick.TopSurface;
+	Bricks[#Bricks + 1] = FlyBrick;
+	end;
+	LastPosition = LowerTorso.Position;
+	end);
+	end);
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ARYE72_FAKESCRIPT))
+function SCRIPT_JNIZ79_FAKESCRIPT() -- NoMap.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = NoMap
+	script.Parent.MouseButton1Click:Connect(function()
+		while wait(0.1) do
+	    for i,v in pairs(game.Workspace.BuildStuff:GetChildren()) do
+	            v.Size = Vector3.new(0.1,0.1,0.1) 
+	        end
+	    end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JNIZ79_FAKESCRIPT))
+function SCRIPT_RHSP86_FAKESCRIPT() -- MainUI.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = MainUI
+	local GUI = script.Parent.Parent.Parent.f8df987syg8
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:connect(function(keyCode)
+		if keyCode.keyCode == Enum.KeyCode.Home then
+			if GUI.Enabled == true then
+				GUI.Enabled = false
+			else
+				GUI.Enabled = true
+			end
+		end
+	end)
+	
+	UserInputService.InputBegan:connect(function(keyCode)
+		if keyCode.keyCode == Enum.KeyCode.Delete then
+			if script.Parent.ScriptyGayM.Visible == true then
+				script.Parent.ScriptyGayM.Visible = false
+			else
+				script.Parent.ScriptyGayM.Visible = true
+			end
+		end
+	end)
+	
+	UserInputService.InputBegan:connect(function(keyCode)
+		if keyCode.keyCode == Enum.KeyCode.End then
+			script.Parent.Parent.Parent.f8df987syg8:Destroy()
+		end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_RHSP86_FAKESCRIPT))
+function SCRIPT_XNIJ89_FAKESCRIPT() -- About.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = About
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = false
+	script.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.HomeM.Visible = false
+	script.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.AboutM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_XNIJ89_FAKESCRIPT))
+function SCRIPT_DSHE90_FAKESCRIPT() -- Combat.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Combat
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.AboutM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = false
+	script.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.HomeM.Visible = false
+	script.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.CombatM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_DSHE90_FAKESCRIPT))
+function SCRIPT_VUGK82_FAKESCRIPT() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Credits
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.AboutM.Visible = false
+	script.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.HomeM.Visible = false
+	script.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VUGK82_FAKESCRIPT))
+function SCRIPT_ILFR69_FAKESCRIPT() -- Home.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Home
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.AboutM.Visible = false
+	script.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = false
+	script.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.HomeM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ILFR69_FAKESCRIPT))
+function SCRIPT_YJSX68_FAKESCRIPT() -- Misc.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Misc
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = false
+	script.Parent.Parent.RenderM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.HomeM.Visible = false
+	script.Parent.Parent.AboutM.Visible = false
+	script.Parent.Parent.MiscM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YJSX68_FAKESCRIPT))
+function SCRIPT_HKFW85_FAKESCRIPT() -- Render.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Render
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.CombatM.Visible = false
+	script.Parent.Parent.CreditsM.Visible = false
+	script.Parent.Parent.AboutM.Visible = false
+	script.Parent.Parent.HelpM.Visible = false
+	script.Parent.Parent.HomeM.Visible = false
+	script.Parent.Parent.MiscM.Visible = false
+	script.Parent.Parent.RenderM.Visible = true
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_HKFW85_FAKESCRIPT))
+game.CoreGui.f8df987syg8.LoginFrame:Remove()
+end)
+
+
+Input.Name = "Input"
+Input.Parent = BorkFrame
+Input.BackgroundColor3 = Color3.new(1, 1, 1)
+Input.BackgroundTransparency = 0.89999997615814
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(0.0285009239, 0, 0.863117874, 0)
+Input.Size = UDim2.new(0.636495113, 0, 0.0799999982, 0)
+Input.Font = Enum.Font.SourceSans
+Input.Text = ""
+Input.TextColor3 = Color3.new(0, 0, 0)
+Input.TextSize = 14
+
+BorkUpdateLog.Name = "BopUpdateLog"
+BorkUpdateLog.Parent = BorkTopMain
+BorkUpdateLog.Active = true
+BorkUpdateLog.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+BorkUpdateLog.BorderColor3 = Color3.new(0.192157, 0.192157, 0.192157)
+BorkUpdateLog.Position = UDim2.new(0.0272373538, 0, 1.31174171, 0)
+BorkUpdateLog.Size = UDim2.new(0.94426173, 0, 7.90885687, 0)
+
+ChangeLogTitle.Name = "ChangeLogTitle"
+ChangeLogTitle.Parent = BorkUpdateLog
+ChangeLogTitle.Active = true
+ChangeLogTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+ChangeLogTitle.BackgroundTransparency = 1
+ChangeLogTitle.BorderSizePixel = 0
+ChangeLogTitle.Size = UDim2.new(1, 0, 0.105941847, 0)
+ChangeLogTitle.Font = Enum.Font.SourceSans
+ChangeLogTitle.Text = "Change Log +"
+ChangeLogTitle.TextColor3 = Color3.new(0.196078, 0.760784, 0.243137)
+ChangeLogTitle.TextSize = 16
+
+Underline.Name = "Underline"
+Underline.Parent = BorkUpdateLog
+Underline.Active = true
+Underline.BackgroundColor3 = Color3.new(0.192157, 0.690196, 0.235294)
+Underline.BorderColor3 = Color3.new(0.192157, 0.192157, 0.192157)
+Underline.BorderSizePixel = 0
+Underline.Position = UDim2.new(0.315688789, 0, 0.0959418267, 0)
+Underline.Size = UDim2.new(0.00026961838, 0, 0.00999999885, 0)
+
+Change1.Name = "Change1"
+Change1.Parent = BorkUpdateLog
+Change1.Active = true
+Change1.BackgroundColor3 = Color3.new(1, 1, 1)
+Change1.BackgroundTransparency = 1
+Change1.BorderSizePixel = 0
+Change1.Position = UDim2.new(0.0288451314, 0, 0.14102982, 0)
+Change1.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Change1.Font = Enum.Font.SourceSans
+Change1.Text = "+ Fixed Whitelists"
+Change1.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Change1.TextSize = 16
+Change1.TextXAlignment = Enum.TextXAlignment.Left
+
+Change2.Name = "Change2"
+Change2.Parent = BorkUpdateLog
+Change2.Active = true
+Change2.BackgroundColor3 = Color3.new(1, 1, 1)
+Change2.BackgroundTransparency = 1
+Change2.BorderSizePixel = 0
+Change2.Position = UDim2.new(0.0288451314, 0, 0.28205964, 0)
+Change2.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Change2.Font = Enum.Font.SourceSans
+Change2.Text = "+ Fixed Tweening"
+Change2.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Change2.TextSize = 16
+Change2.TextXAlignment = Enum.TextXAlignment.Left
+
+Change3.Name = "Change3"
+Change3.Parent = BorkUpdateLog
+Change3.Active = true
+Change3.BackgroundColor3 = Color3.new(1, 1, 1)
+Change3.BackgroundTransparency = 1
+Change3.BorderSizePixel = 0
+Change3.Position = UDim2.new(0.0288451314, 0, 0.423089445, 0)
+Change3.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Change3.Font = Enum.Font.SourceSans
+Change3.Text = "+ Added ButtonFX"
+Change3.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Change3.TextSize = 16
+Change3.TextXAlignment = Enum.TextXAlignment.Left
+
+Date2.Name = "Date2"
+Date2.Parent = BorkUpdateLog
+Date2.Active = true
+Date2.BackgroundColor3 = Color3.new(1, 1, 1)
+Date2.BackgroundTransparency = 1
+Date2.BorderSizePixel = 0
+Date2.Position = UDim2.new(0.535695314, 0, 0.28205964, 0)
+Date2.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Date2.Font = Enum.Font.SourceSans
+Date2.Text = "DATE NOT GIVEN"
+Date2.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Date2.TextSize = 16
+Date2.TextXAlignment = Enum.TextXAlignment.Right
+
+Date1.Name = "Date1"
+Date1.Parent = BorkUpdateLog
+Date1.Active = true
+Date1.BackgroundColor3 = Color3.new(1, 1, 1)
+Date1.BackgroundTransparency = 1
+Date1.BorderSizePixel = 0
+Date1.Position = UDim2.new(0.46564284, 0, 0.14102982, 0)
+Date1.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Date1.Font = Enum.Font.SourceSans
+Date1.Text = "+ Strucid  "
+Date1.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Date1.TextSize = 16
+Date1.TextXAlignment = Enum.TextXAlignment.Right
+
+Date3.Name = "Date3"
+Date3.Parent = BorkUpdateLog
+Date3.Active = true
+Date3.BackgroundColor3 = Color3.new(1, 1, 1)
+Date3.BackgroundTransparency = 1
+Date3.BorderSizePixel = 0
+Date3.Position = UDim2.new(0.535695314, 0, 0.423089445, 0)
+Date3.Size = UDim2.new(0.439580351, 0, 0.106000006, 0)
+Date3.Font = Enum.Font.SourceSans
+Date3.Text = "DATE NOT GIVEN"
+Date3.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+Date3.TextSize = 16
+Date3.TextXAlignment = Enum.TextXAlignment.Right
+
+TitleBorker.Name = "TitleBorker"
+TitleBorker.Parent = BorkTopMain
+TitleBorker.Active = true
+TitleBorker.BackgroundColor3 = Color3.new(1, 1, 1)
+TitleBorker.BackgroundTransparency = 1
+TitleBorker.BorderSizePixel = 0
+TitleBorker.Position = UDim2.new(0.0272373538, 0, 0, 0)
+TitleBorker.Size = UDim2.new(1, 0, 0.985781312, 0)
+TitleBorker.Font = Enum.Font.SourceSans
+TitleBorker.Text = "BopHub Hub V1.0"
+TitleBorker.TextColor3 = Color3.new(0.760784, 0.760784, 0.760784)
+TitleBorker.TextSize = 16
+
+Frame.Parent = BorkHub
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BackgroundTransparency = 1
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.273506105, 0, 0.290237457, 0)
+Frame.Size = UDim2.new(0, 483, 0, 303)
+Frame.Visible = false
+
+-- Scripts:
+function SCRIPT_MXJJ73_FAKESCRIPT() -- Input.LocalScript 
+	getfenv().script = Instance.new('LocalScript', Input)
+
+	local InputKey = script.Parent
+	local keyChangeEveryday = "6P7Q8SATBUCWEXFYH2J3K5N6P7"
+	local EnterBlock = script.Parent.Parent.Enterbtn
+	local plr = game.Players.LocalPlayer
+	local BorkMain = script.Parent.Parent.Parent.Parent.BorkTopMain
+	local keyChangeEveryday = "6P7Q8SATBUCWEXFYH2J3K5N6P7"
+	---WHITELIST--
+	local Ihaveashortnamefordiscord = "crack_head"
+	local E_picGamerMoments = "SexyNigger12"
+	local ProjectSupremeTrash4 = "Yagga"
+	local YoungStar = "TheNiggaWhoIsNotDeadYet"
+	local pedroxbr677 = "IHaxU2"
+	local Addwlaboveme = "ThisIsWrong"
+        local srvrgotddosed = "boptheboys"
+        local oof4dayz = "SFiswinning"
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextScaled = true
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextSize = 5
+		script.Parent.TextScaled = false
+	end)
+	
+	function NiggerTroll()
+		if InputKey.Text == keyChangeEveryday or InputKey.Text == Ihaveashortnamefordiscord or InputKey.Text == E_picGamerMoments or InputKey.Text == ProjectSupremeTrash4 or InputKey.Text == YoungStar or InputKey.Text == pedroxbr677 or InputKey.Text == oof4dayz or InputKey.Text == boptheboys or InputKey.Text ==srvrgotddosed then 
+			BorkMain:TweenPosition(UDim2.new(BorkMain.Position.X.Scale,BorkMain.Position.X.Offset,-2,BorkMain.Position.Y.Offset),"Out","Sine",1.5,true)
+			wait(.5)
+			TestGui.Visible = true
+			wait(0.1)
+			for i = 1,0,-.04 do
+				TestGui.BackgroundTransparency = i
+				wait()
+			end
+			else
+			game.Players.LocalPlayer:Kick("Nice "..plr.Name.." Maybe Your not using the right key???")
+		end
+	end
+	
+	
+	EnterBlock.MouseButton1Click:Connect(function()
+		NiggerTroll()
+	end)
+	
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_MXJJ73_FAKESCRIPT))
+function SCRIPT_YPFJ73_FAKESCRIPT() -- Underline.LocalScript 
+	getfenv().script = Instance.new('LocalScript', Underline)
+
+	wait(1.2)
+	script.Parent:TweenSize(UDim2.new(0.371, 0,0.01, 0),"In","Quad",1.2,true)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YPFJ73_FAKESCRIPT))
+function SCRIPT_ODND76_FAKESCRIPT() -- BorkTopMain.LocalScript 
+	getfenv().script = Instance.new('LocalScript', BorkTopMain)
+
+	--//ALL CREDITS GO TO Google Chrome\\--
+	
+	local players = game:service('Players');
+	    local player = players.LocalPlayer;
+	    local mouse = player:GetMouse();
+	    local run = game:service('RunService');
+	    local stepped = run.Stepped;
+	    draggable = function(obj)
+	        spawn(function()
+	            obj.Active = true;
+	            local minitial;
+	            local initial;
+	            local isdragging;
+	            obj.InputBegan:Connect(function(input)
+	                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	                    isdragging = true;
+	                    minitial = input.Position;
+	                    initial = obj.Position;
+	                    local con;
+	                    con = stepped:Connect(function()
+	                        if isdragging then
+	                            local delta = Vector3.new(mouse.X, mouse.Y, 0) - minitial;
+	                            obj.Position = UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y);
+	                        else
+	                            con:Disconnect();
+	                        end;
+	                    end);
+	                    input.Changed:Connect(function()
+	                        if input.UserInputState == Enum.UserInputState.End then
+	                            isdragging = false;
+	                        end;
+	                    end);
+	                end;
+	            end);
+	        end)
+	end;
+	
+	draggable(script.Parent)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ODND76_FAKESCRIPT))
+function SCRIPT_JEGT81_FAKESCRIPT() -- Frame.LocalScript 
+	getfenv().script = Instance.new('LocalScript', Frame)
+
+	--//ALL CREDITS GO TO Google Chrome\\--
+	
+	local players = game:service('Players');
+	    local player = players.LocalPlayer;
+	    local mouse = player:GetMouse();
+	    local run = game:service('RunService');
+	    local stepped = run.Stepped;
+	    draggable = function(obj)
+	        spawn(function()
+	            obj.Active = true;
+	            local minitial;
+	            local initial;
+	            local isdragging;
+	            obj.InputBegan:Connect(function(input)
+	                if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	                    isdragging = true;
+	                    minitial = input.Position;
+	                    initial = obj.Position;
+	                    local con;
+	                    con = stepped:Connect(function()
+	                        if isdragging then
+	                            local delta = Vector3.new(mouse.X, mouse.Y, 0) - minitial;
+	                            obj.Position = UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y);
+	                        else
+	                            con:Disconnect();
+	                        end;
+	                    end);
+	                    input.Changed:Connect(function()
+	                        if input.UserInputState == Enum.UserInputState.End then
+	                            isdragging = false;
+	                        end;
+	                    end);
+	                end;
+	            end);
+	        end)
+	end;
+	
+	draggable(script.Parent)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JEGT81_FAKESCRIPT))
